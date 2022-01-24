@@ -1,4 +1,5 @@
 \documentclass{article}
+\usepackage{tikz}
 \usepackage{xcolor}
 
 \newcommand{\todo}[1]{\color{red}#1\color{black}\ }
@@ -45,10 +46,6 @@
 \newcommand{\skillproficiencyIntimidation}{p}
 
 
-
-
-
-
 % Stats
 \newcommand{\statSTR}{\the\numexpr
 	\basestatSTR
@@ -62,7 +59,7 @@
 \newcommand{\statCHA}{\the\numexpr
 	\basestatCHA
 	+ \ifx\racialstatbonusCHA\undefined0\else\racialstatbonusCHA\fi
-	+ \ifx\featActor\undefined0\else1\fi}
+	+ \ifx\featActor\undefined0\else1\fi} % Actor feat
 \newcommand{\statWIS}{\the\numexpr
 	\basestatWIS
 	+ \ifx\racialstatbonusWIS\undefined0\else\racialstatbonusWIS\fi}
@@ -93,12 +90,53 @@
 	
 	% Stat block
 	\todo{Fix modifiers because of weird rounding}\\
-	STR: \statSTR{} (\modifierSTR{})\\
-	CON: \statCON{} (\modifierCON{})\\
-	DEX: \statDEX{} (\modifierDEX{})\\
-	CHA: \statCHA{} (\modifierCHA{})\\
-	WIS: \statWIS{} (\modifierWIS{})\\
-	INT: \statINT{} (\modifierINT{})\\
+	\begin{tikzpicture}[scale=0.2]
+		\draw (0:23) node[align=center] {CON\\\statCON{} (\modifierCON{})};
+		\draw (60:23) node[align=center] {STR\\\statSTR{} (\modifierSTR{})};
+		\draw (120:23) node[align=center] {CHA\\\statCHA{} (\modifierCHA{})};
+		\draw (180:23) node[align=center] {WIS\\\statWIS{} (\modifierWIS{})};
+		\draw (240:23) node[align=center] {INT\\\statINT{} (\modifierINT{})};
+		\draw (300:23) node[align=center] {DEX\\\statDEX{} (\modifierDEX{})};
+		
+		\coordinate (CON) at (0:\statCON);
+		\coordinate (STR) at (60:\statSTR);
+		\coordinate (CHA) at (120:\statCHA);
+		\coordinate (WIS) at (180:\statWIS);
+		\coordinate (INT) at (240:\statINT);
+		\coordinate (DEX) at (300:\statDEX);
+		
+		\draw[fill=blue!25] (CON) -- (STR) -- (CHA) -- (WIS) -- (INT) -- (DEX) -- cycle;
+		
+		\draw (0,0) -- (0:20);
+		\draw (0,0) -- (60:20);
+		\draw (0,0) -- (120:20);
+		\draw (0,0) -- (180:20);
+		\draw (0,0) -- (240:20);
+		\draw (0,0) -- (300:20);
+		
+		\draw (0:10) -- (60:10) -- (120:10) -- (180:10) -- (240:10) -- (300:10) -- cycle;
+		\draw (0:12) -- (60:12) -- (120:12) -- (180:12) -- (240:12) -- (300:12) -- cycle;
+		\draw (0:14) -- (60:14) -- (120:14) -- (180:14) -- (240:14) -- (300:14) -- cycle;
+		\draw (0:16) -- (60:16) -- (120:16) -- (180:16) -- (240:16) -- (300:16) -- cycle;
+		\draw (0:18) -- (60:18) -- (120:18) -- (180:18) -- (240:18) -- (300:18) -- cycle;
+		\draw (0:20) -- (60:20) -- (120:20) -- (180:20) -- (240:20) -- (300:20) -- cycle;
+		
+	\end{tikzpicture}
+	
+	\newcommand{\equic}[2][1 cm]{
+		\draw (0,0) circle (#1);
+		\pgfmathparse{#1/1 cm+0.25};
+		\edef\oc{\pgfmathresult cm};
+		\foreach \i in {1,...,#2} {
+			\coordinate (N\i) at (-\i*360/#2:#1);
+			\coordinate (NB\i) at (-\i*360/#2-180/#2:#1);
+			\fill[black] (N\i) circle (0.05 cm);
+			\fill[black] (NB\i) circle (0.05 cm);
+			\draw (-\i*360/#2:\oc) node{$\i$};
+			\draw (-\i*360/#2-180/#2:\oc) node{$\bar{\i}$};
+		}
+	}
+	
 	
 	\input{widgets/skilltable.tex}
 	
@@ -107,6 +145,14 @@
 	
 	
 	% Feats
-	\ifx\featActor\undefined\else Hi\fi
+	\ifx\featActor\undefined\else{
+		\subsection*{Actor}
+			Skilled at mimicry and dramatics, you gain the following benefits:
+			\begin{itemize}
+				\item Increase your Charisma score by 1, to a maximum of 20.
+				\item You have an advantage on Charisma (Deception) and Charisma (Performance) checks when trying to pass yourself off as a different person.
+				\item You can mimic the speech of another person or the sounds made by other creatures. You must have heard the person speaking, or heard the creature make the sound, for at least 1 minute. A successful Wisdom (Insight) check contested by your Charisma (Deception) check allows a listener to determine that the effect is faked.
+			\end{itemize}
+	}\fi
 
 \end{document}
