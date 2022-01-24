@@ -1,5 +1,101 @@
 \documentclass{article}
+\usepackage{xcolor}
+
+\newcommand{\todo}[1]{\color{red}#1\color{black}\ }
+
+% Base information
+\newcommand{\name}{Dominic Callan}
+\newcommand{\proficiencybonus}{2}
+
+% Stats
+\newcommand{\basestatSTR}{8}
+\newcommand{\basestatCON}{14}
+\newcommand{\basestatDEX}{13}
+\newcommand{\basestatCHA}{15}
+\newcommand{\basestatWIS}{10}
+\newcommand{\basestatINT}{12}
+
+% Race
+\newcommand{\race}{Quiet Void}
+\newcommand{\racialstatbonusDEX}{1}
+\newcommand{\racialstatbonusCHA}{1}
+\newcommand{\racialproficiency}{p}
+\newcommand{\featActor}{X}
+\newcommand{\languageCommon}{p}
+\newcommand{\languageAbyssal}{p}
+
+% Class
+\newcommand{\class}{Sorcerer}
+\newcommand{\sorcerousorigin}{Clockwork Soul}
+\newcommand{\hitdie}{6}
+\newcommand{\weaponproficiencyDagger}{p}
+\newcommand{\weaponproficiencyDart}{p}
+\newcommand{\weaponproficiencySling}{p}
+\newcommand{\weaponproficiencyQuarterstaff}{p}
+\newcommand{\weaponproficiencyLightCrossbow}{p}
+\newcommand{\savingthrowproficiencyCON}{p}
+\newcommand{\savingthrowproficiencyCHA}{p}
+\newcommand{\skillproficiencyPersuasion}{p}
+\newcommand{\skillproficiencyReligion}{p}
+
+% Background
+\newcommand{\background}{Experiment}
+\newcommand{\skillproficiencyDeception}{p}
+\newcommand{\skillproficiencyIntimidation}{p}
+
+% Supported;
+% Feats; Actor
+
+% Calculations
+\newcommand{\statSTR}{\the\numexpr
+	\basestatSTR
+	+ \ifx\racialstatbonusSTR\undefined0\else\racialstatbonusSTR\fi}
+\newcommand{\statCON}{\the\numexpr
+	\basestatCON
+	+ \ifx\racialstatbonusCON\undefined0\else\racialstatbonusCON\fi}
+\newcommand{\statDEX}{\the\numexpr
+	\basestatDEX
+	+ \ifx\racialstatbonusDEX\undefined0\else\racialstatbonusDEX\fi}
+\newcommand{\statCHA}{\the\numexpr
+	\basestatCHA
+	+ \ifx\racialstatbonusCHA\undefined0\else\racialstatbonusCHA\fi
+	+ \ifx\featActor\undefined0\else1\fi}
+\newcommand{\statWIS}{\the\numexpr
+	\basestatWIS
+	+ \ifx\racialstatbonusWIS\undefined0\else\racialstatbonusWIS\fi}
+\newcommand{\statINT}{\the\numexpr
+	\basestatINT
+	+ \ifx\racialstatbonusINT\undefined0\else\racialstatbonusINT\fi}
+
+\newcommand{\modifierSTR}{\the\numexpr (\statSTR - 10)/2}
+\newcommand{\modifierCON}{\the\numexpr (\statCON - 10)/2}
+\newcommand{\modifierDEX}{\the\numexpr (\statDEX - 10)/2}
+\newcommand{\modifierCHA}{\the\numexpr (\statCHA - 10)/2}
+\newcommand{\modifierWIS}{\the\numexpr (\statWIS - 10)/2}
+\newcommand{\modifierINT}{\the\numexpr (\statINT - 10)/2}
+
+\newcommand{\spellsaveDC}{\the\numexpr 8 + \proficiencybonus + \modifierCHA \relax}
+\newcommand{\spellattackmodifier}{\the\numexpr \proficiencybonus + \modifierCHA \relax}
 
 \begin{document}
-  Hello again, Dominic
+	
+	Hello again \name{}
+	
+	% Stat block
+	\todo{Fix modifiers because of weird rounding}\\
+	STR: \statSTR{} (\modifierSTR{})\\
+	CON: \statCON{} (\modifierCON{})\\
+	DEX: \statDEX{} (\modifierDEX{})\\
+	CHA: \statCHA{} (\modifierCHA{})\\
+	WIS: \statWIS{} (\modifierWIS{})\\
+	INT: \statINT{} (\modifierINT{})\\
+	
+	% Sorcerer Spellcasting (CHA)
+	Spell Save DC: \spellsaveDC{}
+	
+	
+	% Feats
+	\ifx\featActor\undefined\else Hi\fi
+	\ifx\featAlert\undefined\else Hi\fi
+
 \end{document}
