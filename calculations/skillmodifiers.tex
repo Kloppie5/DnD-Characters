@@ -1,0 +1,165 @@
+% Skill modifiers
+\newcommand{\modifierAcrobatics}{\the\numexpr
+	\modifierDEX
+	+ \ifx\skillproficiencyAcrobatics\undefined0\else\proficiencybonus\fi
+	+ \ifx\skillexpertiseAcrobatics\undefined0\else\proficiencybonus\fi}
+\newcommand{\modifierAnimalHandling}{\the\numexpr
+	\modifierWIS
+	+ \ifx\skillproficiencyAnimalHandling\undefined0\else\proficiencybonus\fi
+	+ \ifx\skillexpertiseAnimalHandling\undefined0\else\proficiencybonus\fi}
+\newcommand{\modifierArcana}{\the\numexpr
+	\modifierINT
+	+ \ifx\skillproficiencyArcana\undefined0\else\proficiencybonus\fi
+	+ \ifx\skillexpertiseArcana\undefined0\else\proficiencybonus\fi}
+\newcommand{\modifierAthletics}{\the\numexpr
+	\modifierSTR
+	+ \ifx\skillproficiencyAthletics\undefined0\else\proficiencybonus\fi
+	+ \ifx\skillexpertiseAthletics\undefined0\else\proficiencybonus\fi}
+\newcommand{\modifierDeception}{\the\numexpr
+	\modifierCHA
+	+ \ifx\skillproficiencyDeception\undefined0\else\proficiencybonus\fi
+	+ \ifx\skillexpertiseDeception\undefined0\else\proficiencybonus\fi}
+\newcommand{\modifierHistory}{\the\numexpr
+	\modifierINT
+	+ \ifx\skillproficiencyHistory\undefined0\else\proficiencybonus\fi
+	+ \ifx\skillexpertiseHistory\undefined0\else\proficiencybonus\fi}
+\newcommand{\modifierInsight}{\the\numexpr
+	\modifierWIS
+	+ \ifx\skillproficiencyInsight\undefined0\else\proficiencybonus\fi
+	+ \ifx\skillexpertiseInsight\undefined0\else\proficiencybonus\fi}
+\newcommand{\modifierIntimidation}{\the\numexpr
+	\modifierCHA
+	+ \ifx\skillproficiencyIntimidation\undefined0\else\proficiencybonus\fi
+	+ \ifx\skillexpertiseIntimidation\undefined0\else\proficiencybonus\fi}
+\newcommand{\modifierInvestigation}{\the\numexpr
+	\modifierINT
+	+ \ifx\skillproficiencyInvestigation\undefined0\else\proficiencybonus\fi
+	+ \ifx\skillexpertiseInvestigation\undefined0\else\proficiencybonus\fi}
+\newcommand{\modifierMedicine}{\the\numexpr
+	\modifierWIS
+	+ \ifx\skillproficiencyMedicine\undefined0\else\proficiencybonus\fi
+	+ \ifx\skillexpertiseMedicine\undefined0\else\proficiencybonus\fi}
+\newcommand{\modifierNature}{\the\numexpr
+	\modifierINT
+	+ \ifx\skillproficiencyNature\undefined0\else\proficiencybonus\fi
+	+ \ifx\skillexpertiseNature\undefined0\else\proficiencybonus\fi}
+\newcommand{\modifierPerception}{\the\numexpr
+	\modifierWIS
+	+ \ifx\skillproficiencyPerception\undefined0\else\proficiencybonus\fi
+	+ \ifx\skillexpertisePerception\undefined0\else\proficiencybonus\fi}
+\newcommand{\modifierPerformance}{\the\numexpr
+	\modifierCHA
+	+ \ifx\skillproficiencyPerformance\undefined0\else\proficiencybonus\fi
+	+ \ifx\skillexpertisePerformance\undefined0\else\proficiencybonus\fi}
+\newcommand{\modifierPersuasion}{\the\numexpr
+	\modifierCHA
+	+ \ifx\skillproficiencyPersuasion\undefined0\else\proficiencybonus\fi
+	+ \ifx\skillexpertisePersuasion\undefined0\else\proficiencybonus\fi}
+\newcommand{\modifierReligion}{\the\numexpr
+	\modifierINT
+	+ \ifx\skillproficiencyReligion\undefined0\else\proficiencybonus\fi
+	+ \ifx\skillexpertiseReligion\undefined0\else\proficiencybonus\fi}
+\newcommand{\modifierSleightofHand}{\the\numexpr
+	\modifierDEX
+	+ \ifx\skillproficiencySleightofHand\undefined0\else\proficiencybonus\fi
+	+ \ifx\skillexpertiseSleightofHand\undefined0\else\proficiencybonus\fi}
+\newcommand{\modifierStealth}{\the\numexpr
+	\modifierDEX
+	+ \ifx\skillproficiencyStealth\undefined0\else\proficiencybonus\fi
+	+ \ifx\skillexpertiseStealth\undefined0\else\proficiencybonus\fi}
+\newcommand{\modifierSurvival}{\the\numexpr
+	\modifierWIS
+	+ \ifx\skillproficiencySurvival\undefined0\else\proficiencybonus\fi
+	+ \ifx\skillexpertiseSurvival\undefined0\else\proficiencybonus\fi}
+
+% Skill markers
+\newcommand{\skillmarkerAcrobatics}{
+  \ifx\skillproficiencyAcrobatics\undefined\else
+  \ifx\skillexpertiseAcrobatics\undefined
+  \skillproficiencyAcrobatics
+  \else\skillexpertiseActobatics\fi\fi}
+\newcommand{\skillmarkerAnimalHandling}{
+  \ifx\skillproficiencyAnimalHandling\undefined\else
+  \ifx\skillexpertiseAnimalHandling\undefined
+  \skillproficiencyAnimalHandling
+  \else\skillexpertiseAnimalHandling\fi\fi}
+\newcommand{\skillmarkerArcana}{
+  \ifx\skillproficiencyArcana\undefined\else
+  \ifx\skillexpertiseArcana\undefined
+  \skillproficiencyArcana
+  \else\skillexpertiseArcana\fi\fi}
+\newcommand{\skillmarkerAthletics}{
+  \ifx\skillproficiencyAthletics\undefined\else
+  \ifx\skillexpertiseAthletics\undefined
+  \skillproficiencyAthletics
+  \else\skillexpertiseAthletics\fi\fi}
+\newcommand{\skillmarkerDeception}{
+  \ifx\skillproficiencyDeception\undefined\else
+  \ifx\skillexpertiseDeception\undefined
+  \skillproficiencyDeception
+  \else\skillexpertiseDeception\fi\fi}
+\newcommand{\skillmarkerHistory}{
+  \ifx\skillproficiencyHistory\undefined\else
+  \ifx\skillexpertiseHistory\undefined
+  \skillproficiencyHistory
+  \else\skillexpertiseHistory\fi\fi}
+\newcommand{\skillmarkerInsight}{
+  \ifx\skillproficiencyInsight\undefined\else
+  \ifx\skillexpertiseInsight\undefined
+  \skillproficiencyInsight
+  \else\skillexpertiseInsight\fi\fi}
+\newcommand{\skillmarkerIntimidation}{
+  \ifx\skillproficiencyIntimidation\undefined\else
+  \ifx\skillexpertiseIntimidation\undefined
+  \skillproficiencyIntimidation
+  \else\skillexpertiseIntimidation\fi\fi}
+\newcommand{\skillmarkerInvestigation}{
+  \ifx\skillproficiencyInvestigation\undefined\else
+  \ifx\skillexpertiseInvestigation\undefined
+  \skillproficiencyInvestigation
+  \else\skillexpertiseInvestigation\fi\fi}
+\newcommand{\skillmarkerMedicine}{
+  \ifx\skillproficiencyMedicine\undefined\else
+  \ifx\skillexpertiseMedicine\undefined
+  \skillproficiencyMedicine
+  \else\skillexpertiseMedicine\fi\fi}
+\newcommand{\skillmarkerNature}{
+  \ifx\skillproficiencyNature\undefined\else
+  \ifx\skillexpertiseNature\undefined
+  \skillproficiencyNature
+  \else\skillexpertiseNature\fi\fi}
+\newcommand{\skillmarkerPerception}{
+  \ifx\skillproficiencyPerception\undefined\else
+  \ifx\skillexpertisePerception\undefined
+  \skillproficiencyPerception
+  \else\skillexpertisePerception\fi\fi}
+\newcommand{\skillmarkerPerformance}{
+  \ifx\skillproficiencyPerformance\undefined\else
+  \ifx\skillexpertisePerformance\undefined
+  \skillproficiencyPerformance
+  \else\skillexpertisePerformance\fi\fi}
+\newcommand{\skillmarkerPersuasion}{
+  \ifx\skillproficiencyPersuasion\undefined\else
+  \ifx\skillexpertisePersuasion\undefined
+  \skillproficiencyPersuasion
+  \else\skillexpertisePersuasion\fi\fi}
+\newcommand{\skillmarkerReligion}{
+  \ifx\skillproficiencyReligion\undefined\else
+  \ifx\skillexpertiseReligion\undefined
+  \skillproficiencyReligion
+  \else\skillexpertiseReligion\fi\fi}
+\newcommand{\skillmarkerSleightofHand}{
+  \ifx\skillproficiencySleightofHand\undefined\else
+  \ifx\skillexpertiseSleightofHand\undefined
+  \skillproficiencySleightofHand
+  \else\skillexpertiseSleightofHand\fi\fi}
+\newcommand{\skillmarkerStealth}{
+  \ifx\skillproficiencyStealth\undefined\else
+  \ifx\skillexpertiseStealth\undefined
+  \skillproficiencyStealth
+  \else\skillexpertiseStealth\fi\fi}
+\newcommand{\skillmarkerSurvival}{
+  \ifx\skillproficiencySurvival\undefined\else
+  \ifx\skillexpertiseSurvival\undefined
+  \skillproficiencySurvival
+  \else\skillexpertiseSurvival\fi\fi}

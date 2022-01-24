@@ -5,6 +5,7 @@
 
 % Base information
 \newcommand{\name}{Dominic Callan}
+\newcommand{\nickname}{Umbra}
 \newcommand{\proficiencybonus}{2}
 
 % Stats
@@ -19,7 +20,7 @@
 \newcommand{\race}{Quiet Void}
 \newcommand{\racialstatbonusDEX}{1}
 \newcommand{\racialstatbonusCHA}{1}
-\newcommand{\racialproficiency}{p}
+\newcommand{\skillproficiencyPerformance}{p}
 \newcommand{\featActor}{X}
 \newcommand{\languageCommon}{p}
 \newcommand{\languageAbyssal}{p}
@@ -43,10 +44,12 @@
 \newcommand{\skillproficiencyDeception}{p}
 \newcommand{\skillproficiencyIntimidation}{p}
 
-% Supported;
-% Feats; Actor
 
-% Calculations
+
+
+
+
+% Stats
 \newcommand{\statSTR}{\the\numexpr
 	\basestatSTR
 	+ \ifx\racialstatbonusSTR\undefined0\else\racialstatbonusSTR\fi}
@@ -67,6 +70,7 @@
 	\basestatINT
 	+ \ifx\racialstatbonusINT\undefined0\else\racialstatbonusINT\fi}
 
+% Stat modifiers
 \newcommand{\modifierSTR}{\the\numexpr (\statSTR - 10)/2}
 \newcommand{\modifierCON}{\the\numexpr (\statCON - 10)/2}
 \newcommand{\modifierDEX}{\the\numexpr (\statDEX - 10)/2}
@@ -74,8 +78,14 @@
 \newcommand{\modifierWIS}{\the\numexpr (\statWIS - 10)/2}
 \newcommand{\modifierINT}{\the\numexpr (\statINT - 10)/2}
 
-\newcommand{\spellsaveDC}{\the\numexpr 8 + \proficiencybonus + \modifierCHA \relax}
-\newcommand{\spellattackmodifier}{\the\numexpr \proficiencybonus + \modifierCHA \relax}
+\input{calculations/skillmodifiers.tex}
+
+\newcommand{\spellsaveDC}{\the\numexpr
+	8
+	+ \proficiencybonus + \modifierCHA \relax}
+\newcommand{\spellattackmodifier}{\the\numexpr 
+	\proficiencybonus
+	+ \modifierCHA \relax}
 
 \begin{document}
 	
@@ -90,12 +100,13 @@
 	WIS: \statWIS{} (\modifierWIS{})\\
 	INT: \statINT{} (\modifierINT{})\\
 	
+	\input{widgets/skilltable.tex}
+	
 	% Sorcerer Spellcasting (CHA)
 	Spell Save DC: \spellsaveDC{}
 	
 	
 	% Feats
 	\ifx\featActor\undefined\else Hi\fi
-	\ifx\featAlert\undefined\else Hi\fi
 
 \end{document}
