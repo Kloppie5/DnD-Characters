@@ -8,6 +8,19 @@
 \newcommand{\name}{Dominic Callan}
 \newcommand{\nickname}{Umbra}
 \newcommand{\proficiencybonus}{2}
+\newcommand{\backstory}{
+	Dominic was a common footsoldier which was forcefully conscripted into a secretive project.
+	His memory was wiped and he was told that he used to be a criminal but was given a second chance for helping out with finding a way to fight against something called the Void. In actuality, the projects purpose was to infuse soldiers with this Void and learn how to control it in order to create an unstoppable army. Given the name Umbra, he underwent many painful experiments, but the Void kept lashing out around him. During an experiment where he was exposed to the plane of Order, he got connected to The Universal Clock. This calmed the void inside of him and gave him insight into the true nature of the world and his past. In a fit of rage, he went around slaughtering everyone in the compound, after which his void became quiet and unresponsive.
+}
+\newcommand{\misc}{
+	Having come into contact with The Universal Clock and partially attuned to the Void, Dominic can sense the vibrations of the universe and follows what he thinks is the will of The Universal Clock.
+	
+	Dominic is a fairly tall humanoid figure made of a dark, unknown substance. When in great distress, his shape becomes less solid and more whispy, like smoke. While his face looks almost featureless, he is able to open his mouth by forcefully ripping the surface. His natural voice is quite low, and not wanting to come across as dangerous, he keeps his face hidden behind a mask and learned to change his voice so he sounds less intimidating.
+}
+\newcommand{\quotes}{
+	"We're drowning in the waveforms and our minds are in the tides."
+	"The Void is elegant malevolence, sequestered in the resonance."
+}
 
 % Stats
 \newcommand{\basestatSTR}{8}
@@ -39,6 +52,9 @@
 \newcommand{\savingthrowproficiencyCHA}{p}
 \newcommand{\skillproficiencyPersuasion}{p}
 \newcommand{\skillproficiencyReligion}{p}
+
+% Subclass
+\newcommand{\manifestationsoforder}{The ticking of The Universal Clock can be heard by you and those affected by your magic.}
 
 % Background
 \newcommand{\background}{Experiment}
@@ -107,12 +123,12 @@
 		
 		\draw[fill=blue!25] (CON) -- (STR) -- (CHA) -- (WIS) -- (INT) -- (DEX) -- cycle;
 		
-		\draw (0,0) -- (0:20);
-		\draw (0,0) -- (60:20);
-		\draw (0,0) -- (120:20);
-		\draw (0,0) -- (180:20);
-		\draw (0,0) -- (240:20);
-		\draw (0,0) -- (300:20);
+		\draw (0:10) -- (0:20);
+		\draw (60:10) -- (60:20);
+		\draw (120:10) -- (120:20);
+		\draw (180:10) -- (180:20);
+		\draw (240:10) -- (240:20);
+		\draw (300:10) -- (300:20);
 		
 		\draw (0:10) -- (60:10) -- (120:10) -- (180:10) -- (240:10) -- (300:10) -- cycle;
 		\draw (0:12) -- (60:12) -- (120:12) -- (180:12) -- (240:12) -- (300:12) -- cycle;
@@ -143,6 +159,10 @@
 	% Sorcerer Spellcasting (CHA)
 	Spell Save DC: \spellsaveDC{}
 	
+	
+	% Equipment
+	Mask
+	Dark green cloak
 	
 	% Feats
 	\ifx\featActor\undefined\else{
