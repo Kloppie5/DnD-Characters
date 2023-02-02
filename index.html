@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="layout.css" />
+        <script>
+            function loadCharacter() {
+                var character = document.getElementById("characterselect").value;
+                var character_description = document.getElementById("character_description");
+
+                if (character == "character_blue") {
+                    character_description.value = "Blue is a sentient sapphire gemstone that can control water. This is used to power a special frame of steel filled with water. He was originally created by a master artificer to serve as the first of many guardians of [city], but he was not finished before the city fell. Buried when the artificers tower collapsed due to an explosion, he spend an unknown amount of time before being woken up during an excavation. After helping the excavation crew, he followed them back to [village], which he decided to protect. After a raid on the village, the remaining villagers decided to move to [city] via ship. Blue's extreme weight made it impossible for him to travel by ship, so he decided to part ways with the villagers and stay behind.";
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <header>
+            <select id="characterselect" onchange="loadCharacter()">
+                <option hidden disabled selected value> -- character -- </option>
+                <option value="character_blue">Blue</option>
+            </select>
+        </header>
+
+        <textarea id="character_description" disabled></textarea>
+    </body>
+</html>
