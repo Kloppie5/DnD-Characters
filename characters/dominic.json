@@ -1,0 +1,109 @@
+{
+  "name": "Dominic Wilken",
+  "bio": "Dominic Wilken was a common footsoldier which was forcefully conscripted into a secretive project to create super soldiers to take over nearby cities. For this purpose, his memory was wiped and his body was infused with the power of The Void. Unable to speak and going by the name Umbra, he underwent many experiments in an attempt to control his void, but it kept lashing out around him. During his final experiment, he was exposed to The Universal Clock in a complex ritual. This calmed the void inside of him and gave him insight into the true nature of the world and his past. In a fit of rage, he went around slaughtering everyone in the compound, after which his void became quiet and unresponsive. Having come into contact with The Universal Clock and partially attuned to The Void, Dominic can sense the vibrations of the universe and follows the will of The Universal Clock.",
+  "appearance": "Dominic is a fairly tall 'human' made of a dark, unknown substance. He appears to have fair copper skin, brown hair and yellow eyes. When in great distress, his shape becomes less solid and more whispy, like smoke.",
+  "race": {
+    "name": "Voidling"
+  },
+  "classes": "Bard 1, Clockwork Soul Sorcerer 3",
+  "background": {
+    "name": "Experiment"
+  },
+  "stats": {
+    "STR": 8,
+    "CON": 14,
+    "DEX": 14,
+    "CHA": 17,
+    "WIS": 10,
+    "INT": 12
+  },
+  "proficiencies": [
+    "CON Save",
+    "CHA Save",
+    "Daggers",
+    "Darts",
+    "Slings",
+    "Quarterstaffs",
+    "Light crossbows",
+    "Light armor",
+    "Deception",
+    "Perception",
+    "Performance",
+    "Persuation",
+    "Religion",
+    "Clockwork",
+    "Disguise Kit"
+  ],
+  "hp rolls": [6, 5, 4, 5],
+  "feats": [
+    {
+      "name": "Actor",
+      "description": ""
+    }
+  ],
+  "languages": [
+    "Common",
+    "Abyssal"
+  ],
+  "effects": [
+    {
+      "name": "Manifestation of Order",
+      "description": "The ticking of The Universal Clock can be heard by you and those affected by your magic."
+    },
+    {
+      "name": "Restore Balance",
+      "description": ""
+    },
+    {
+      "name": "Bardic Inspiration",
+      "charges": 3,
+      "description": "You can inspire others through stirring words or music. To do so, you use a bonus action on your turn to choose one creature other than yourself within 60 feet of you who can hear you. That creature gains one Bardic Inspiration die, a d6. Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes. The creature can wait until after it rolls the d20 before deciding to use the Bardic Inspiration die, but must decide before the DM says whether the roll succeeds or fails. A creature can have only one Bardic Inspiration die at a time. A creature regains its Bardic Inspiration die when it finishes a long rest."
+    }
+  ],
+  "magic items": [
+    {
+      "name": "Watch of the Void",
+      "description": "The watch is attached to a silver necklace and is ornated with cog symbols. The watch never moves, but every time someone looks at it, it shows a different time."
+    }
+  ],
+  "spells": [
+    "Frostbite",
+    "Mage Hand",
+    "Mild Sliver",
+    "Minor Illusion",
+    "Prestidigitation",
+    "Vicious Mockery",
+
+    "Dissonant Whispers",
+    "Heroism",
+    "Magic Missile",
+    "Protection from Evil and Good",
+    "Shield",
+    "Silvery Barbs",
+    "Sleep",
+    "Tasha's Hideous Laughter",
+
+    "Aid",
+    "Tasha's Mind Whip"
+  ],
+  "spellcasting": {
+    "spellcasting ability": "CHA",
+    "spell save DC": 13,
+    "spell attack bonus": 5,
+    "spell slots": {
+      "1st": 4,
+      "2nd": 3
+    },
+    "sorcery points": 3,
+    "metamagic": [
+      {
+        "name": "Subtle Spell",
+        "description": "When you cast a spell, you can spend 1 sorcery point to cast it without any somatic or verbal components."
+      },
+      {
+        "name": "Twinned Spell",
+        "description": "When you cast a spell that targets only one creature and doesn't have a range of self, you can spend a number of sorcery points equal to the spell's level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip)."
+      }
+    ]
+  }
+}

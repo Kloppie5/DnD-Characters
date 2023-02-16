@@ -1,6 +1,35 @@
 <html>
     <head>
-        <link rel="stylesheet" href="layout.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <!--<link rel="stylesheet" href="layout.css" />-->
+        <script>
+            var characters = {}
+
+            $(function() {
+                $.getJSON('characters/dominic.json', function(data) {
+                    characters["dominic"] = data;
+                });
+
+                $('#characterselect').on('change', function() {
+                    var character = $(this).val();
+                    console.log("character: " + character);
+                    console.log(characters[character]);
+
+                    $('#character_name').val(characters[character]['name']);
+
+                    $('#character_classes').val(characters[character]['classes']);
+
+                    $('#character_str').val(characters[character]['stats']['STR']);
+                    $('#character_con').val(characters[character]['stats']['CON']);
+                    $('#character_dex').val(characters[character]['stats']['DEX']);
+                    $('#character_cha').val(characters[character]['stats']['CHA']);
+                    $('#character_wis').val(characters[character]['stats']['WIS']);
+                    $('#character_int').val(characters[character]['stats']['INT']);
+
+                    
+                });
+            });
+        </script>
         <script>
             function loadCharacter() {
                 var character = document.getElementById("characterselect").value;
@@ -32,18 +61,29 @@
     </head>
     <body>
         <header>
-            <select id="characterselect" onchange="loadCharacter()">
+            <select id="characterselect">
                 <option hidden disabled selected value> -- character -- </option>
-                <option value="character_blue">Blue</option>
-                <option value="character_daniel">Daniel Strider</option>
-                <option value="character_dominic">Dominic Wilken</option>
-                <option value="character_eris">Eris</option>
-                <option value="character_shay">Shay Withano</option>
-                <option value="character_thomas">Thomas</option>
-                <option value="character_topaz">Topaz</option>
+                <option value="blue">Blue</option>
+                <option value="daniel">Daniel Strider</option>
+                <option value="dominic">Dominic Wilken</option>
+                <option value="eris">Eris</option>
+                <option value="shay">Shay Withano</option>
+                <option value="thomas">Thomas</option>
+                <option value="topaz">Topaz</option>
             </select>
         </header>
+        <main>
+            Name: <input type="text" id="character_name" value="" disabled><br/>
+            Classes: <input type="text" id="character_classes" value="" disabled><br/>
+            <br/>
+            STR: <input type="text" id="character_str" value="" disabled><br/>
+            CON: <input type="text" id="character_con" value="" disabled><br/>
+            DEX: <input type="text" id="character_dex" value="" disabled><br/>
+            CHA: <input type="text" id="character_cha" value="" disabled><br/>
+            WIS: <input type="text" id="character_wis" value="" disabled><br/>
+            INT: <input type="text" id="character_int" value="" disabled><br/>
+            <br/>
 
-        <textarea id="character_description" disabled></textarea>
+        </main>
     </body>
 </html>
