@@ -1,0 +1,130 @@
+{
+  "Frostbite": {
+    "name": "Frostbite",
+    "level": 0,
+    "school": "Evocation",
+    "casting_time": "1 Action",
+    "range": "60 feet",
+    "components": "V, S",
+    "duration": "Instantaneous",
+    "description": "CON save or 1d6 cold damage and disadvantage on next attack roll until end of its next turn."
+  },
+  "Mage Hand": {},
+  "Mild Sliver": {
+    "name": "Mild Sliver",
+    "level": 0,
+    "school": "Enchantment",
+    "casting_time": "1 Action",
+    "range": "60 feet",
+    "components": "V, S",
+    "duration": "1 round",
+    "description": "INT save or 1d6 psychic damage and subtract 1d4 from next saving throw before end of your next turn."
+  },
+  "Minor Illusion": {},
+  "Prestidigitation": {},
+  "Vicious Mockery": {
+    "name": "Vicious Mockery",
+    "level": 0,
+    "school": "Enchantment",
+    "casting_time": "1 Action",
+    "range": "60 feet",
+    "components": "V",
+    "duration": "Instantaneous",
+    "description": "WIS save or 1d4 psychic damage and disadvantage on next attack roll until end of its next turn."
+  },
+
+  "Dissonant Whispers": {
+    "name": "Dissonant Whispers",
+    "level": 1,
+    "school": "Enchantment",
+    "casting_time": "1 Action",
+    "range": "60 feet",
+    "components": "V",
+    "duration": "Instantaneous",
+    "description": "WIS save or 3d6 psychic damage and must use its reaction, if available, to move as far away from you as its speed allows."
+  },
+  "Heroism": {
+    "name": "Heroism",
+    "level": 1,
+    "school": "Enchantment",
+    "casting_time": "1 Action",
+    "range": "Touch",
+    "components": "V, S",
+    "duration": "1 minute",
+    "concentration": true,
+    "description": "Target is immune to being frightened and gains temporary hit points equal to your spellcasting ability modifier at the start of each of its turns."
+  },
+  "Magic Missile": {
+    "name": "Magic Missile",
+    "level": 1,
+    "school": "Evocation",
+    "casting_time": "1 Action",
+    "range": "120 feet",
+    "components": "V, S",
+    "duration": "Instantaneous",
+    "description": "Three darts deal 1d4+1 force damage each."
+  },
+  "Protection from Evil and Good": {},
+  "Shield": {
+    "name": "Shield",
+    "level": 1,
+    "school": "Abjuration",
+    "casting_time": "1 Reaction",
+    "range": "Self",
+    "components": "V, S",
+    "duration": "1 round",
+    "description": "+5 AC until start of your next turn and no damage from magic missile."
+  },
+  "Silvery Barbs": {
+    "name": "Silvery Barbs",
+    "level": 1,
+    "school": "Enchantment",
+    "casting_time": "1 Reaction",
+    "range": "60 feet",
+    "components": "V",
+    "duration": "Instantaneous",
+    "description": "When you see a creature succeed on an attack roll, ability check, or saving throw, you can cause them to reroll the d20 and use the lower roll. A different creature gains advantage on their next attack roll, ability check, or saving throw."
+  },
+  "Sleep": {
+    "name": "Sleep",
+    "level": 1,
+    "school": "Enchantment",
+    "casting_time": "1 Action",
+    "range": "90 feet",
+    "components": "V, S, M (a pinch of fine sand, rose petals, or a cricket)",
+    "duration": "1 minute",
+    "description": "5d8 hit points of creatures in a 20-foot-radius sphere fall unconscious."
+  },
+  "Tasha's Hideous Laughter": {
+    "name": "Tasha's Hideous Laughter",
+    "level": 1,
+    "school": "Enchantment",
+    "casting_time": "1 Action",
+    "range": "60 feet",
+    "components": "V",
+    "duration": "1 minute",
+    "concentration": true,
+    "description": "WIS save or fall prone, become incapacitated. At the end of each of its turns, and when taking damage, it can make another WIS save. The target has advantage on the save if it's triggered by damage."
+  },
+
+  "Aid": {
+    "name": "Aid",
+    "level": 2,
+    "school": "Abjuration",
+    "casting_time": "1 Action",
+    "range": "30 feet",
+    "components": "V, S, M (a tiny strip of white cloth)",
+    "duration": "8 hours",
+    "description": "Up to three creatures get +5 to their maximum hit points for the duration."
+  },
+  "Tasha's Mind Whip": {
+    "name": "Tasha's Mind Whip",
+    "level": 2,
+    "school": "Enchantment",
+    "casting_time": "1 Action",
+    "range": "90 feet",
+    "components": "V",
+    "duration": "1 round",
+    "description": "3d6 psychic damage, INT save halves, and cant take a reaction until the end of its next turn. On its next turn, it can only move, use an action, OR use a bonus action."
+  }
+}

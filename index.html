@@ -5,6 +5,14 @@
         <script>
             var characters = {}
 
+            function stat_to_modifier (stat) {
+                return Math.floor((stat - 10) / 2);
+            }
+            function set_skill (skill, stat, character) {
+                proficiency_bonus = 2;
+                $('#character_'+skill.toLowerCase().replaceAll(' ', '_')).val(stat_to_modifier(character['stats'][stat]) + (character['proficiencies'].includes(skill) ? proficiency_bonus : 0));
+            }
+
             $(function() {
                 $.getJSON('characters/dominic.json', function(data) {
                     characters["dominic"] = data;
@@ -13,20 +21,43 @@
                 $('#characterselect').on('change', function() {
                     var character = $(this).val();
                     console.log("character: " + character);
-                    console.log(characters[character]);
+                    character = characters[character];
+                    console.log(character);
 
-                    $('#character_name').val(characters[character]['name']);
+                    $('#character_name').val(character['name']);
 
-                    $('#character_classes').val(characters[character]['classes']);
+                    $('#character_classes').val(character['classes']);
 
-                    $('#character_str').val(characters[character]['stats']['STR']);
-                    $('#character_con').val(characters[character]['stats']['CON']);
-                    $('#character_dex').val(characters[character]['stats']['DEX']);
-                    $('#character_cha').val(characters[character]['stats']['CHA']);
-                    $('#character_wis').val(characters[character]['stats']['WIS']);
-                    $('#character_int').val(characters[character]['stats']['INT']);
+                    max_hp = character['hp rolls'].reduce((a, b) => a + b, 0) + character['level'] * stat_to_modifier(character['stats']['CON']);
+                    $('#character_hp').val(max_hp);
+                    $('#character_hp_max').val(max_hp);
+                    $('#character_ac').val(14);
 
-                    
+                    $('#character_str').val(character['stats']['STR']);
+                    $('#character_con').val(character['stats']['CON']);
+                    $('#character_dex').val(character['stats']['DEX']);
+                    $('#character_cha').val(character['stats']['CHA']);
+                    $('#character_wis').val(character['stats']['WIS']);
+                    $('#character_int').val(character['stats']['INT']);
+
+                    set_skill('Acrobatics', 'DEX', character);
+                    set_skill('Animal Handling', 'WIS', character);
+                    set_skill('Arcana', 'INT', character);
+                    set_skill('Athletics', 'STR', character);
+                    set_skill('Deception', 'CHA', character);
+                    set_skill('History', 'INT', character);
+                    set_skill('Insight', 'WIS', character);
+                    set_skill('Intimidation', 'CHA', character);
+                    set_skill('Investigation', 'INT', character);
+                    set_skill('Medicine', 'WIS', character);
+                    set_skill('Nature', 'INT', character);
+                    set_skill('Perception', 'WIS', character);
+                    set_skill('Performance', 'CHA', character);
+                    set_skill('Persuasion', 'CHA', character);
+                    set_skill('Religion', 'INT', character);
+                    set_skill('Sleight of Hand', 'DEX', character);
+                    set_skill('Stealth', 'DEX', character);
+                    set_skill('Survival', 'WIS', character);
                 });
             });
         </script>
@@ -76,12 +107,34 @@
             Name: <input type="text" id="character_name" value="" disabled><br/>
             Classes: <input type="text" id="character_classes" value="" disabled><br/>
             <br/>
+            HP: <input type="text" id="character_hp" value="">/<input type="text" id="character_hp_max" value="" disabled><br/>
+            AC: <input type="text" id="character_ac" value="" disabled><br/>
+            <br/>
             STR: <input type="text" id="character_str" value="" disabled><br/>
             CON: <input type="text" id="character_con" value="" disabled><br/>
             DEX: <input type="text" id="character_dex" value="" disabled><br/>
             CHA: <input type="text" id="character_cha" value="" disabled><br/>
             WIS: <input type="text" id="character_wis" value="" disabled><br/>
             INT: <input type="text" id="character_int" value="" disabled><br/>
+            <br/>
+            Acrobatics (DEX): <input type="text" id="character_acrobatics" value="" disabled><br/>
+            Animal Handling (WIS): <input type="text" id="character_animal_handling" value="" disabled><br/>
+            Arcana (INT): <input type="text" id="character_arcana" value="" disabled><br/>
+            Athletics (STR): <input type="text" id="character_athletics" value="" disabled><br/>
+            Deception (CHA): <input type="text" id="character_deception" value="" disabled><br/>
+            History (INT): <input type="text" id="character_history" value="" disabled><br/>
+            Insight (WIS): <input type="text" id="character_insight" value="" disabled><br/>
+            Intimidation (CHA): <input type="text" id="character_intimidation" value="" disabled><br/>
+            Investigation (INT): <input type="text" id="character_investigation" value="" disabled><br/>
+            Medicine (WIS): <input type="text" id="character_medicine" value="" disabled><br/>
+            Nature (INT): <input type="text" id="character_nature" value="" disabled><br/>
+            Perception (WIS): <input type="text" id="character_perception" value="" disabled><br/>
+            Performance (CHA): <input type="text" id="character_performance" value="" disabled><br/>
+            Persuasion (CHA): <input type="text" id="character_persuasion" value="" disabled><br/>
+            Religion (INT): <input type="text" id="character_religion" value="" disabled><br/>
+            Sleight of Hand (DEX): <input type="text" id="character_sleight_of_hand" value="" disabled><br/>
+            Stealth (DEX): <input type="text" id="character_stealth" value="" disabled><br/>
+            Survival (WIS): <input type="text" id="character_survival" value="" disabled><br/>
             <br/>
 
         </main>

@@ -9,6 +9,7 @@
   "background": {
     "name": "Experiment"
   },
+  "level": 4,
   "stats": {
     "STR": 8,
     "CON": 14,
@@ -27,6 +28,7 @@
     "Light crossbows",
     "Light armor",
     "Deception",
+    "Intimidation",
     "Perception",
     "Performance",
     "Persuation",
@@ -52,7 +54,8 @@
     },
     {
       "name": "Restore Balance",
-      "description": ""
+      "charges": 2,
+      "description": "When a creature you can see within 60 feet is about to roll with advantage or disadvantage, you can use your reaction to prevent the roll from having advantage or disadvantage."
     },
     {
       "name": "Bardic Inspiration",
@@ -105,5 +108,8 @@
         "description": "When you cast a spell that targets only one creature and doesn't have a range of self, you can spend a number of sorcery points equal to the spell's level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip)."
       }
     ]
-  }
+  },
+  "inventory": [
+
+  ]
 }
