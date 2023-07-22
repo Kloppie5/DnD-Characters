@@ -1,0 +1,172 @@
+[
+  "Sapphiria's Booty: a play in Seven Masks Theatre",
+  "Fenerus Stormcastle's house in Quill Alley in the Trade Ward. Single story building completely emptied. An encoded small piece of paper under the door mentions 'Westra Moltimmer demanding three additional dresses for Sapphiria's Booty, considerable expense; Rongquan Mystere may need to put in an appearance'",
+  "Terrace Estate, rowhouse residence, Esembles Lane, Castle Ward; suspected Xanathar Healing Outpost. Going there, we noticed people scurrying away in a nearby alley. After a Xanathar ambush, we found a note saying 'Orb Confectioners, Say Eight small eyes around an ocular cake', and we overheared someone entering with a probable password phrase; 'The bawdy star shines bright tonight'",
+  "Some location in Brindle Alley",
+  "Kolar Tower, Headquarters of the Xantarin",
+  "The Spooky Booze, our tavern in Trollskull Alley in the North Ward",
+  "Melairkyn ceremonial vault; presumed location of the treasure",
+  "City of the Dead; graveyard",
+  "Lady Blackstaff gave us the task of observing Meloon Wardragon of Force Gray in the Yawning Portal for a ten-day.",
+  "Read the ledger; entry on an arrow wound due to incautious observation of the Windmill in Coachlamp Lane",
+  "Instructions for Gladitorial weapons. Weapons X requested will be send by Grinda Garloth in Mistshore, audience procession, Amergo",
+  "'I heard the red hand was hot', to access the healing",
+  "Xanathar only eats the food from his favorite goblin kitchen",
+  "Xanathar's fishkeeper Ott Steeltoes is missing",
+  "Ahmargo, the high ranking dwarven officer for Xanathar",
+  "Keycoin: action to unlock a lock; they reappear somewhere",
+  "Tarbroz, drow; wants sunglasses; draw moon on paper near entrance",
+  "Vuzal, drow sailor infiltrated Xanathar's lair",
+  "Xoblob's name is above the mirror in the secret room",
+  "Plundered Xanathars Sanctuary with Captain Zord",
+  "Stole the fish",
+  "Got 30 100gp gems",
+  "Unadopted the kids to Captain Zord",
+  "Delivered the fish to the Xantarin",
+  "Inflitrated a press building",
+  
+  "Went to the Yawning Portal",
+  "Stalked Meloon Wardragon",
+  "He has a headache and occasionally seems to lose his train of thought",
+  "Saw Azuredge the axe in his room",
+  "Ahghairon the archwizard forged Azuredge a long time ago",
+  "Meloon lost his attunement to Azuredge, it didn't want to join us",
+  "We went to the Blackstaff and got a letter of recommendation to get help from clerics",
+  "Lyrier the cleric cast Remove Curse, but it didn't work",
+  "We discovered that Meloon was possessed by an Intellect Devourer",
+  "After casting Protection from Evil and Good, we managed to kill the Intellect Devourer",
+  "We gave Lyrier the Revivify scroll to revive Meloon",
+
+  "Sapphiria's Booty: a play in Seven Masks Theatre",
+  "After the play, Rongquan Mystere the theatre owner let us talk to Westra Moltimmer, the main actress",
+  "We figured out this theater is owned by our drow friend group.",
+
+  "Harper Quest; Uza Solizeph is an old woman who sells books out of a narrow three-story building on Sorn Street in the Trades Ward. She claims to have trapped a monster in her shop and fears for the welfare of her books and her cat. The City Watch isn't likely to lend a hand, given Uza's propensity for tall tales, but the Harpers owe her a favor. You'll find her sobbing at Felzoun's Folly, a tavern on the corner of Sorn Street and Salabar Street. Make haste!",
+  "After significant conversation regarding Nesfits morals, we went towards the three-story building",
+  "The cat noises we heard could not be translated by speak with animals",
+
+  "Invited by the Castlelanterns to a party called the Feast of Leiruin",
+  "Zord pointed us to asmodean cultists",
+  "Arn's prayer book",
+  "Found a Hell Cyst",
+
+  "Willifort Crowell; faded holy symbol on the wall as secret entrance to the winecellar"
+],
+{
+  [
+    {
+      "name": "Enclave of Red Magic",
+      "where": "Castle Ward"
+    },
+    {
+      "name": "Temple of Mystra, House of Wonders"
+    },
+    {
+      "name": "Temple of Gond, House of Inspired Hands",
+      "sub": "Hall of Miraculous Inventions"
+    },
+    {
+      "name": "Gaxly Rudderbust",
+      "type": "broadsheet publisher",
+      "where": "Corner of Immerstreet and .... in the ... Ward"
+    }
+  ],
+  "people": [
+    {
+      "name": "Zorbog",
+      "clues": [
+        "The Eye got stolen from the Xantarin by the Xanathar Guild",
+        "Shardrunners used to run the Xantarin until Manshoon took over",
+        "Necklace is for higher rank",
+        "Special ring needed for third floor",
+        "Properly packaged into an old crate",
+        "Given to Zardos Zord"
+      ]
+    },
+    {
+      "name": "Ott Steeltoes",
+      "clues": [
+        "Shield dwarf, strapped down",
+        "Terrace Estate",
+        "\"Stole this thing\"",
+        "Sewer Lid",
+        "Circular Part, pushes brick, spiral staircase",
+        "Killed in the sewers"
+      ]
+    },
+    "Bolagentra Summertaen, lady master of the watchful order of magists and protectors",
+    {
+      "name": "Sir Ambrose Everdawn, champion of Kelemvor",
+      "clue": "Patrolling the City of the Dead"
+    },
+    {
+      "name": "Avi and ...",
+      "clues": [
+        "Owners of the ... Smithy"
+      ]
+    },
+    {
+      "name": "Dagult Neverember",
+      "clues": [
+        "Lord of Waterdeep"
+      ]
+    },
+    {
+      "name": "Reinaer Neverember",
+      "clues": [
+        "One of the eyes was likely in his locket, which was why he was kidnapped"
+      ]
+    },
+    {
+      "name": "Kalain of the Nine Waters",
+      "clues": [
+        "Ex to Dagult Neverember"
+      ]
+    },
+    "Tiahla, head servant of Reinaer",
+    "Zardos Zord, captain of the Sea Maidens Faire; real name Jarlaxel",
+    "Zilifarn, bronze dragon in the ",
+    {
+      "name": "Dalakhar",
+      "clue": "Died trying to deliver the Stone of Golorr"
+    },
+    {
+      "name": "Sgnt Saeth Cromley",
+      "notes": "Of the City Watch"
+    },
+    {
+      "name": "Orond Grolhund",
+      "notes": [
+        "Owner of the fireball throwing nimblewright",
+        "Held hostage for a ten-day by the Black Network (Xantarin)"
+      ]
+    },
+    {
+      "name": "Ursin Floxin",
+      "notes": [
+        "Xantarin",
+        "Still at large"
+      ]
+    },
+    {
+      "name": "Dumathoin, Keeper of the Mountain's Secrets",
+      "clues": [
+        "Dwarven god",
+        "Encoded secrets in the ores"
+      ]
+    }
+  ],
+  "objects": [
+    {
+      "name": "Mythril Hammer"
+    },
+    {
+      "name": "Necklace of Fireball",
+      "notes": "Was owned by (f) Grolhund"
+    },
+    {
+      "name": "Stone of Golorr",
+      "clue": "Presumed key to the vault, missing three eyes"
+    }
+  ]
+}

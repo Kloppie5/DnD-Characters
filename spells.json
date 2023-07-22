@@ -10,8 +10,8 @@
     "description": "CON save or 1d6 cold damage and disadvantage on next attack roll until end of its next turn."
   },
   "Mage Hand": {},
-  "Mild Sliver": {
-    "name": "Mild Sliver",
+  "Mind Sliver": {
+    "name": "Mind Sliver",
     "level": 0,
     "school": "Enchantment",
     "casting_time": "1 Action",

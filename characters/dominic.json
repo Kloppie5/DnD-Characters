@@ -9,6 +9,7 @@
   "background": {
     "name": "Experiment"
   },
+  "alignment": "Lawful Good",
   "level": 4,
   "stats": {
     "STR": 8,
@@ -66,13 +67,14 @@
   "magic items": [
     {
       "name": "Watch of the Void",
-      "description": "The watch is attached to a silver necklace and is ornated with cog symbols. The watch never moves, but every time someone looks at it, it shows a different time."
+      "description": "The watch is attached to a silver necklace and is ornated with cog symbols. The watch never moves, but every time someone looks at it, it shows a different time.",
+      "effect": "While wearing this item, you are immune to magic that allows other creatures to determine your creature type"
     }
   ],
   "spells": [
     "Frostbite",
     "Mage Hand",
-    "Mild Sliver",
+    "Mind Sliver",
     "Minor Illusion",
     "Prestidigitation",
     "Vicious Mockery",
@@ -87,6 +89,7 @@
     "Tasha's Hideous Laughter",
 
     "Aid",
+    "Lesser Restoration",
     "Tasha's Mind Whip"
   ],
   "spellcasting": {
@@ -110,6 +113,16 @@
     ]
   },
   "inventory": [
+    {
+      "name": "Health Potion",
+      "description": "A potion that restores 2d4 + 2 hit points."
+    }
+  ],
+  "quotes" : [
+    "[You killed someone? Why?] Does it really matter why? They are still dead because of me, and I'm still alive. Any reasons or justifications for doing so would only be for my emotional benefit. They are still dead. The damage done by the act will not change.",
 
+    "Just humor me for once with your new pacifistic outlook on life; imagine there's a young man with ideals like yours. Then, there is a war. All the young man's friends are fighting. His family, his brothers, are fighting. But he is not. He doesn't want to kill anyone. His brothers are fighting, and the are losing. But he still doesn't fight. They die. They all die.",
+    "If he had fought, he could have saved them. But he did not. In trying to hurt no one, everyone suffered. Do you understand? Sometimes you have no choice.",
+    "[Poor guy.] Why? He got the people he loved killed. How is it not his fault? He could have done something, and he didn't. How are those deaths not a direct result of his inaction? [It's not his fault.] It IS my fault! It HAS to be!!"
   ]
 }
