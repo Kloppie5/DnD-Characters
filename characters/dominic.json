@@ -1,9 +1,11 @@
 {
   "name": "Dominic Wilken",
-  "bio": "Dominic Wilken was a common footsoldier which was forcefully conscripted into a secretive project to create super soldiers to take over nearby cities. For this purpose, his memory was wiped and his body was infused with the power of The Void. Unable to speak and going by the name Umbra, he underwent many experiments in an attempt to control his void, but it kept lashing out around him. During his final experiment, he was exposed to The Universal Clock in a complex ritual. This calmed the void inside of him and gave him insight into the true nature of the world and his past. In a fit of rage, he went around slaughtering everyone in the compound, after which his void became quiet and unresponsive. Having come into contact with The Universal Clock and partially attuned to The Void, Dominic can sense the vibrations of the universe and follows the will of The Universal Clock.",
-  "appearance": "Dominic is a fairly tall 'human' made of a dark, unknown substance. He appears to have fair copper skin, brown hair and yellow eyes. When in great distress, his shape becomes less solid and more whispy, like smoke.",
+  "bio": "After staying passive during a war that wiped out the village he grew up in, he volunteered for a secretive project to create super soldiers. For this purpose, his memory was wiped and his body was infused with the power of The Void. Unable to speak and going by the name Umbra, he underwent many experiments in an attempt to control his void, but it kept lashing out around him. During his final experiment, he was exposed to The Universal Clock in a complex ritual. This calmed the void inside of him and gave him insight into the true nature of the world. In a fit of rage, he went around slaughtering everyone in the compound, after which his void became quiet and unresponsive. Having come into contact with The Universal Clock and partially attuned to The Void, Dominic can sense the vibrations of the universe and follows the will of The Universal Clock.",
+  "body": "Dominic is a fairly tall humanoid made of a very dark purple, almost black substance. He has light purple eyes and can tear the front of his face open to reveal a mouth full of sharp spikes. When in great distress, his shape becomes less solid and more whispy, like smoke. When cut, he bleeds a purple, oily substance.",
+  "appearance": "Using his Watch of the Void, he appears as a human with fair copper skin, short brown hair and yellow eyes. His blood looks red until it is far enough away from his body. His type is hidden from divination magic.",
   "race": {
-    "name": "Voidling"
+    "name": "Living Void",
+    "type": "Aberration"
   },
   "classes": "Bard 1, Clockwork Soul Sorcerer 3",
   "background": {
@@ -67,8 +69,9 @@
   "magic items": [
     {
       "name": "Watch of the Void",
-      "description": "The watch is attached to a silver necklace and is ornated with cog symbols. The watch never moves, but every time someone looks at it, it shows a different time.",
-      "effect": "While wearing this item, you are immune to magic that allows other creatures to determine your creature type"
+      "description": "The watch is attached to a silver necklace and is ornated with cog symbols. The watch never moves, but every time someone looks at it, it shows a different time. If dispelled, it will move to the correct time and start ticking at a volume suggesting it is a much bigger clockwork device, and it will become incredibly heavy.",
+      "effect": "While wearing this item, spells and magical effects used to determine your creature type reveal that you are a humanoid, and you are under a permanent disguise self effect.",
+      "attunement": true
     }
   ],
   "spells": [
@@ -121,8 +124,12 @@
   "quotes" : [
     "[You killed someone? Why?] Does it really matter why? They are still dead because of me, and I'm still alive. Any reasons or justifications for doing so would only be for my emotional benefit. They are still dead. The damage done by the act will not change.",
 
-    "Just humor me for once with your new pacifistic outlook on life; imagine there's a young man with ideals like yours. Then, there is a war. All the young man's friends are fighting. His family, his brothers, are fighting. But he is not. He doesn't want to kill anyone. His brothers are fighting, and the are losing. But he still doesn't fight. They die. They all die.",
+    "Just humor me for once with your new pacifistic outlook on life; imagine there's a young man with ideals like yours. Then, there is a war. All the young man's friends are fighting. His family, his brothers, are fighting. But he is not. He doesn't want to kill anyone. His brothers are fighting, and they are losing. But he still doesn't fight. They die. They all die.",
     "If he had fought, he could have saved them. But he did not. In trying to hurt no one, everyone suffered. Do you understand? Sometimes you have no choice.",
     "[Poor guy.] Why? He got the people he loved killed. How is it not his fault? He could have done something, and he didn't. How are those deaths not a direct result of his inaction? [It's not his fault.] It IS my fault! It HAS to be!!"
+  ],
+  "events": [
+    "Pretended to be an ally of Ott Steeltoes, until he revealed a secret entrance to the Xanathar hideout. Nesfits then stabbed him in the back and we dragged him out of the sewers.",
+    "Abducted Zorbog and eventually gave him to Zardos Zord."
   ]
 }
