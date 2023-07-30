@@ -7,7 +7,7 @@
     "name": "Living Void",
     "type": "Aberration"
   },
-  "classes": "Bard 1, Clockwork Soul Sorcerer 3",
+  "classes": "Bard 1, Clockwork Soul Sorcerer 4",
   "background": {
     "name": "Experiment"
   },
@@ -17,7 +17,7 @@
     "STR": 8,
     "CON": 14,
     "DEX": 14,
-    "CHA": 17,
+    "CHA": 18,
     "WIS": 10,
     "INT": 12
   },
@@ -39,11 +39,15 @@
     "Clockwork",
     "Disguise Kit"
   ],
-  "hp rolls": [6, 5, 4, 5],
+  "hp rolls": [6, 5, 4, 5, 5],
   "feats": [
     {
       "name": "Actor",
       "description": ""
+    },
+    {
+      "name": "Telekinetic",
+      "description": "As a bonus action, you can try to telekinetically shove one creature you can see within 30 feet of you. When you do so, the target must succeed on a Strength saving throw (DC 8 + your proficiency bonus + the ability modifier of the score increased by this feat) or be moved 5 feet toward you or away from you. A creature can willingly fail this save."
     }
   ],
   "languages": [
@@ -57,12 +61,12 @@
     },
     {
       "name": "Restore Balance",
-      "charges": 2,
+      "charges": 3,
       "description": "When a creature you can see within 60 feet is about to roll with advantage or disadvantage, you can use your reaction to prevent the roll from having advantage or disadvantage."
     },
     {
       "name": "Bardic Inspiration",
-      "charges": 3,
+      "charges": 4,
       "description": "You can inspire others through stirring words or music. To do so, you use a bonus action on your turn to choose one creature other than yourself within 60 feet of you who can hear you. That creature gains one Bardic Inspiration die, a d6. Once within the next 10 minutes, the creature can roll the die and add the number rolled to one ability check, attack roll, or saving throw it makes. The creature can wait until after it rolls the d20 before deciding to use the Bardic Inspiration die, but must decide before the DM says whether the roll succeeds or fails. A creature can have only one Bardic Inspiration die at a time. A creature regains its Bardic Inspiration die when it finishes a long rest."
     }
   ],
@@ -76,7 +80,7 @@
   ],
   "spells": [
     "Frostbite",
-    "Mage Hand",
+    "Mage Hand (+30 ft, invis)",
     "Mind Sliver",
     "Minor Illusion",
     "Prestidigitation",
@@ -84,26 +88,30 @@
 
     "Dissonant Whispers",
     "Heroism",
-    "Magic Missile",
     "Protection from Evil and Good",
+    "Ray of Sickness",
     "Shield",
     "Silvery Barbs",
-    "Sleep",
     "Tasha's Hideous Laughter",
 
     "Aid",
+    "Invisibility",
     "Lesser Restoration",
-    "Tasha's Mind Whip"
+    "Tasha's Mind Whip",
+
+    "Clairvoyance",
+    "Haste"
   ],
   "spellcasting": {
     "spellcasting ability": "CHA",
-    "spell save DC": 13,
-    "spell attack bonus": 5,
+    "spell save DC": 15,
+    "spell attack bonus": 7,
     "spell slots": {
       "1st": 4,
-      "2nd": 3
+      "2nd": 3,
+      "3rd": 2
     },
-    "sorcery points": 3,
+    "sorcery points": 4,
     "metamagic": [
       {
         "name": "Subtle Spell",
