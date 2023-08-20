@@ -1,4 +1,4 @@
-[
+{ "dragon-heist": [
   "Sapphiria's Booty: a play in Seven Masks Theatre",
   "Fenerus Stormcastle's house in Quill Alley in the Trade Ward. Single story building completely emptied. An encoded small piece of paper under the door mentions 'Westra Moltimmer demanding three additional dresses for Sapphiria's Booty, considerable expense; Rongquan Mystere may need to put in an appearance'",
   "Terrace Estate, rowhouse residence, Esembles Lane, Castle Ward; suspected Xanathar Healing Outpost. Going there, we noticed people scurrying away in a nearby alley. After a Xanathar ambush, we found a note saying 'Orb Confectioners, Say Eight small eyes around an ocular cake', and we overheared someone entering with a probable password phrase; 'The bawdy star shines bright tonight'",
@@ -102,123 +102,52 @@
   "Nesfits yanked on the tail of a flying sneck to distract the spectator",
   "We used the teleportation circle, and snuck up to the vault",
   "Using the simulacrum as a guide, we disguise Nesfits as Monsoon using the stilts and a metal mask",
-  "We open the vault and take the eye"
-],
-{
-  [
-    {
-      "name": "Enclave of Red Magic",
-      "where": "Castle Ward"
-    },
-    {
-      "name": "Temple of Mystra, House of Wonders"
-    },
-    {
-      "name": "Temple of Gond, House of Inspired Hands",
-      "sub": "Hall of Miraculous Inventions"
-    },
-    {
-      "name": "Gaxly Rudderbust",
-      "type": "broadsheet publisher",
-      "where": "Corner of Immerstreet and .... in the ... Ward"
-    }
-  ],
-  "people": [
-    {
-      "name": "Zorbog",
-      "clues": [
-        "The Eye got stolen from the Xantarin by the Xanathar Guild",
-        "Shardrunners used to run the Xantarin until Manshoon took over",
-        "Necklace is for higher rank",
-        "Special ring needed for third floor",
-        "Properly packaged into an old crate",
-        "Given to Zardos Zord"
-      ]
-    },
-    {
-      "name": "Ott Steeltoes",
-      "clues": [
-        "Shield dwarf, strapped down",
-        "Terrace Estate",
-        "\"Stole this thing\"",
-        "Sewer Lid",
-        "Circular Part, pushes brick, spiral staircase",
-        "Killed in the sewers"
-      ]
-    },
-    "Bolagentra Summertaen, lady master of the watchful order of magists and protectors",
-    {
-      "name": "Sir Ambrose Everdawn, champion of Kelemvor",
-      "clue": "Patrolling the City of the Dead"
-    },
-    {
-      "name": "Avi and ...",
-      "clues": [
-        "Owners of the ... Smithy"
-      ]
-    },
-    {
-      "name": "Dagult Neverember",
-      "clues": [
-        "Lord of Waterdeep"
-      ]
-    },
-    {
-      "name": "Reinaer Neverember",
-      "clues": [
-        "One of the eyes was likely in his locket, which was why he was kidnapped"
-      ]
-    },
-    {
-      "name": "Kalain of the Nine Waters",
-      "clues": [
-        "Ex to Dagult Neverember"
-      ]
-    },
-    "Tiahla, head servant of Reinaer",
-    "Zardos Zord, captain of the Sea Maidens Faire; real name Jarlaxel",
-    "Zilifarn, bronze dragon in the ",
-    {
-      "name": "Dalakhar",
-      "clue": "Died trying to deliver the Stone of Golorr"
-    },
-    {
-      "name": "Sgnt Saeth Cromley",
-      "notes": "Of the City Watch"
-    },
-    {
-      "name": "Orond Grolhund",
-      "notes": [
-        "Owner of the fireball throwing nimblewright",
-        "Held hostage for a ten-day by the Black Network (Xantarin)"
-      ]
-    },
-    {
-      "name": "Ursin Floxin",
-      "notes": [
-        "Xantarin",
-        "Still at large"
-      ]
-    },
-    {
-      "name": "Dumathoin, Keeper of the Mountain's Secrets",
-      "clues": [
-        "Dwarven god",
-        "Encoded secrets in the ores"
-      ]
-    }
-  ],
-  "objects": [
-    {
-      "name": "Mythril Hammer"
-    },
-    {
-      "name": "Necklace of Fireball",
-      "notes": "Was owned by (f) Grolhund"
-    },
-    {
-      "name": "Stone of Golorr",
-      "clue": "Presumed key to the vault, missing three eyes"
-    }
-  ]
-}
+  "We open the vault and take the eye",
+
+  "After inserting the final eye, we asked it about the Neveramber vault",
+  "The eye has 3 charges, 1d3-2 per day",
+  "Nesfits felt two streams of thoughts injected into his mind:",
+  "- A tangled barrage of imagery: Twisted underground tunnels lit by strange lights. An endless field of corpses. Halls of stone. A golden dragon, aging so rapidly that scales shed from its skin. The sound of a silver hammer striking stone. A beam of sunlight in a darkened room. A chisel carving Dethek (dwarven) characters which transform themselves into two words: BRANDATH CRYPTS.",
+  "- A cryptic riddle: Where laid his wife to rest ‘midst bones of son’s blood sealed, there where Anri laid himself to rest lies that which Open Lord concealed.",
+  
+  "Brandath: family name of the mother of Reinard. Crypt is in the City of the Dead",
+  "We went to Avi and Ambrick, ordered a mythril hammer to be made in 2 days",
+  "We invisibly went to the crypt",
+  "A treant pretending to be a tree is in front of the crypt, we snuck past it",
+  "We went to one of the collapsed parts. Its filled with severed hands that walk around. Myst graverobbed a headband of intelligence",
+  "We found the newly constructed crypt of Lord Anri Brandath, with a big locked stone door",
+  "We went to Reinaer and tasked his servant with getting flowers",
+  "We got the hammer, got Zord, and got Reinaer.",
+  "We led Reinaer around a bit, opening Anri's crypt. Dominic tried to crack open the sarcophagus with a dagger, but failed.",
+  "We followed Reinaer to his mother, Alethea. Above the sarcophagus is a portret of Anri.",
+  "An illusionary wall led to a staircase down. All of us go down.",
+  "We found a secret compartment that could have housed an Eye",
+  "At the 'end' of the halls, an illusionary collapsed wall led to the next room.",
+  "An arch with dwarven runes around a giant steel door, obviously more recent.",
+  "Zord lockpicked the door",
+  "The hall sloping down is filled with dwarven secrets edged on the walls",
+  "At the end is a set of huge adamantine doors with 'bring forth the three keys' on it",
+  "A bas relief of a sun is in the center of the room, with text more recently added, three times 'know yeh the hidden truth'",
+  "We figured we needed sunlight, so we dropped off Reinaer at home, and went to the temple of Talor to get a cleric with Dawn",
+  "Borrowed a cleric, Seraphina, with rose-gold hair. When she cast Dawn on the sun, and we hit the scale with the mythril hammer, the doors opened.",
+  "10 doors; 8 of them are locked. Behind two of them, we find a set of stairs and a fresco that will charm you if you get close enough, to defend it until your death.",
+  "Going up the stairs, we see three bridges, each with an adamantine door at the end.",
+  "We notice some liquid moving behind the cracks in the mosaic.",
+  "The first part of the bridge collapses, Nesfits falls down",
+  "Thick black goo seeps out of the cracks; we kill the black pudding",
+  "A secret door leads to a room with loot",
+  "We cross the remaining bridge and reach closed adamantine doors",
+  "Nesfits hulked through the arcane lock",
+  "There is an anvil in the middle of the room. Plonking it with a hammer we grabbed out of a fresco, we gain 10 temporary hitpoints.",
+  "We overcomplicate stuff and use mage hand and rope to cross the bridge; Myst did fall down, but didn't take damage because of a parachute",
+  "Nesfits hulks agains and opens the second door",
+  "'A secret never before told, opens the door'",
+  "Dominic said in Abyssal, Nesfits used Comprehend Languages; 'I hide what I have become because I am afraid it would define me.'. When that didn't work; 'I am an aberration' opened a hidden trapdoor in the floor to a staircase",
+  "We met a golden dragon, Aurinax, that looks like a dwarf that eats gems and has the Dragonstaff of Achiron",
+  "We call over Zord and the Blackstaff",
+  "After escorting the gold, we meet up with the current Open Lord and got pardoned for all our shady shit and got a 10% finders fee.",
+
+  "Nesfits became the most famous engineer in Waterdeep; helping solve a problem with 'the walking statues'",
+  "Myst joined Zord, sailing to the city Luskan",
+  "Dominic lead the raids on the remaining crime factions, then focused on the dungeon of the mad mage"
+]}

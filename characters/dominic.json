@@ -1,8 +1,12 @@
 {
   "name": "Dominic Wilken",
-  "bio": "After staying passive during a war that wiped out the village he grew up in, he volunteered for a secretive project to create super soldiers. For this purpose, his memory was wiped and his body was infused with the power of The Void. Unable to speak and going by the name Umbra, he underwent many experiments in an attempt to control his void, but it kept lashing out around him. During his final experiment, he was exposed to The Universal Clock in a complex ritual. This calmed the void inside of him and gave him insight into the true nature of the world. In a fit of rage, he went around slaughtering everyone in the compound, after which his void became quiet and unresponsive. Having come into contact with The Universal Clock and partially attuned to The Void, Dominic can sense the vibrations of the universe and follows the will of The Universal Clock.",
-  "body": "Dominic is a fairly tall humanoid made of a very dark purple, almost black substance. He has light purple eyes and can tear the front of his face open to reveal a mouth full of sharp spikes. When in great distress, his shape becomes less solid and more whispy, like smoke. When cut, he bleeds a purple, oily substance.",
+  
+  "bio": "During a growing conflict between major powers, Dominic was helpless to stop the destruction of his village. He volunteered for a secretive project to help end the war, one way or another. For this experiment, his memory was wiped and his body was infused with the power of The Void. Unable to speak and going by the name Umbra, he underwent many experiments in an attempt to control his void, but it kept lashing out around him. At some point he broke free and caused a massacre. After his recapture, he was exposed to The Universal Clock. Ever since then, he has heard the ticking of The Universal Clock. It calmed the void inside of him and gave him insight into the true nature of the world; he can sense the vibrations of the universe and follows the will of The Universal Clock in fighting 'elegant malevolence, sequestered in the resonance'. Part of this was realizing the mistake it was to try and control The Void, and as such he went around and killed everyone who was involved in the project.",
+
+  "body": "Dominic is a fairly tall humanoid made of a very dark purple, almost black substance. He has light purple eyes and can tear the front of his face open to reveal a mouth full of sharp spikes. He is essentially formless, but he concentrates his mass into a humanoid shape of lighter purple, oily void, with a shell of dense, solid void. When in great distress, or unconscious for over 10 hours, his shape becomes less solid and more whispy, like smoke.",
+  
   "appearance": "Using his Watch of the Void, he appears as a human with fair copper skin, short brown hair and yellow eyes. His blood looks red until it is far enough away from his body. His type is hidden from divination magic.",
+  
   "race": {
     "name": "Living Void",
     "type": "Aberration"
@@ -12,7 +16,7 @@
     "name": "Experiment"
   },
   "alignment": "Lawful Good",
-  "level": 4,
+  "level": 5,
   "stats": {
     "STR": 8,
     "CON": 14,
@@ -43,7 +47,7 @@
   "feats": [
     {
       "name": "Actor",
-      "description": ""
+      "description": "You have advantage on Charisma (Deception) and Charisma (Performance) checks when trying to pass yourself off as a different person. You can mimic the speech of another person or the sounds made by other creatures. You must have heard the person speaking, or heard the creature make the sound, for at least 1 minute. A successful Wisdom (Insight) check contested by your Charisma (Deception) check allows a listener to determine that the effect is faked."
     },
     {
       "name": "Telekinetic",
@@ -52,7 +56,8 @@
   ],
   "languages": [
     "Common",
-    "Abyssal"
+    "Abyssal",
+    "Deep Speech"
   ],
   "effects": [
     {
@@ -78,30 +83,31 @@
       "attunement": true
     }
   ],
-  "spells": [
-    "Frostbite",
-    "Mage Hand (+30 ft, invis)",
-    "Mind Sliver",
-    "Minor Illusion",
-    "Prestidigitation",
-    "Vicious Mockery",
+  "spells": {
+    "Frostbite":                     { "range": "60ft", "save": "CON", "effect": "1d6 cold damage, disadvantage on next weapon attack" },
+    "Mage Hand":                     { "range": "60ft", "effect": "move 60ft, manipulate object, invis" },
+    "Mind Sliver":                   { "range": "60ft", "save": "INT", "effect": "1d6 psychic damage, -1d4 on next save" },
+    "Minor Illusion":                { },
+    "Prestidigitation":              { },
+    "Vicious Mockery":               { "range": "60ft", "save": "WIS", "effect": "1d4 psychic damage, disadvantage on next weapon attack" },
 
-    "Dissonant Whispers",
-    "Heroism",
-    "Protection from Evil and Good",
-    "Ray of Sickness",
-    "Shield",
-    "Silvery Barbs",
-    "Tasha's Hideous Laughter",
+    "Dissonant Whispers":            { "range": "60ft", "save": "WIS", "effect": "3d6 psychic damage, must use reaction to move away, save halves" },
+    "Heroism":                       { "range": "Touch", "con": true, "effect": "gain 7 temp HP at start of turn, immune to frightened", "upcast": "additional creature" },
+    "Protection from Evil and Good": { "range": "Touch", "con": true, "effect": "immune to charm, frightened, possessed, disadvantage on attacks from abberations, celestials, elementals, fey, fiends, and undead" },
+    "Ray of Sickness":               { "range": "60ft", "attack": "ranged", "effect": "2d8 poison damage, CON save or poisoned until end of your next turn (disadvantage on attack rolls and ability checks)" },
+    "Shield":                        { "reaction": true, "effect": "+5 AC until start of next turn" },
+    "Silvery Barbs":                 { "range": "60ft", "reaction": true, "save": "WIS", "effect": "reroll, different creature has advantage on next attack roll, ability check, or saving throw" },
+    "Tasha's Hideous Laughter":      { "range": "30ft", "con": true, "save": "WIS", "effect": "target falls prone, incapacitated, and unable to stand up for duration, save at end of turn or when taking damage" },
 
-    "Aid",
-    "Invisibility",
-    "Lesser Restoration",
-    "Tasha's Mind Whip",
+    "Aid":                           { "range": "30ft", "effect": "3 creatures gain 5 current and max HP", "upcast": "+5 HP" },
+    "Invisibility":                  { "range": "Touch", "con": true, "effect": "target is invisible until they attack or cast a spell", "upcast": "additional creature" },
+    "Lesser Restoration":            { "range": "Touch", "con": true, "effect": "end one disease or condition (blinded, deafened, paralyzed, poisoned)" },
+    "Tasha's Mind Whip":             { "range": "90ft", "save": "INT", "effect": "3d6 psychic damage, half damage and no additional effect on save, loses reaction, next turn move, action, or bonus action", "upcast": "additional creature" },
 
-    "Clairvoyance",
-    "Haste"
-  ],
+    "Clairvoyance":                  { "range": "1 mile", "con": true, "effect": "create invisible sensor, see or hear through it, action switches" },
+    "Fireball":                      { "range": "150ft", "save": "DEX", "effect": "8d6 fire damage, save halves", "upcast": "+1d6 damage" },
+    "Haste":                         { "range": "30ft", "con": true, "effect": "double speed, +2 AC, advantage on DEX saves, additional action to attack, dash, disengage, hide, or use object. Can't do anything until end of their next turn when spell ends." }
+  },
   "spellcasting": {
     "spellcasting ability": "CHA",
     "spell save DC": 15,
