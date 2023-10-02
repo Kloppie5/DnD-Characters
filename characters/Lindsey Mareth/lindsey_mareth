@@ -1,0 +1,178 @@
+STR  CON(p)  DEX  CHA  WIS  INT(p)
+  8    12     10   13   12   18
+ -1    +1     +0   +1   +1   +4
+
+Artificer 1, Warlock(Fathomless) 1
+Human (variant)
+Eldritch Adept (Eldritch Sight)
+    You can cast detect magic at will, without expending a spell slot or material components.
+Languages: Common, Dwarvish, Elvish, Gnomish, Goblin
+
+HP: 15/15
+
+Proficiency Bonus +2
+
+Strength              -1
+    Athletics          -1
+Dexterity             +0
+    Acrobatics         +0
+    Sleight of Hand    +0
+    Stealth            +0
+Intelligence          +4
+    Arcana(p)          +6
+    History(p)         +6
+    Investigation(p)   +6
+    Nature(p)          +6
+    Religion           +4
+Wisdom                +1
+    Animal Handling    +1
+    Insight(p)         +3
+    Medicine           +1
+    Perception         +1
+    Survival(p)        +3
+Charisma              +1
+    Deception          +1
+    Intimidation       +1
+    Performance        +1
+    Persuasion         +1
+
+Spells:
+  Cantrips
+    (w) Eldritch Blast
+    (a) Fire Bolt
+    (a) Guidance
+    (w) Mind Sliver
+  Level 1 (2)
+    (w) Create or Destroy Water
+    (a) Cure Wounds
+    (a) Detect Magic
+    (a) Feather Fall
+    (a) Sanctuary
+    (a) Tasha's Caustic Brew
+    (w) Thunderwave
+
+Inventory:
+- Dapper Frog's tophat
+
+Bracelet with small metal trinkets; fish, sphere, shell, gear, leaf, star, skull
+
+Tentancle of the Deep [prof charges] (bonus action)
+  10-foot-long tentacle within 60 feet.
+  Last for 1 minute, or until you use this feature again.
+
+  Melee spell attack with reach, 1d8 cold damage and speed reduced by 10 feet until the start of your next turn.
+  As a bonus action, you can move the tentacle up to 30 feet and repeat the attack.
+
+Gift of the Sea
+  Swimming speed of 40 feet
+  Can breathe underwater
+
+-------------------------------------------------------------------------------
+
+Year 1:
+
+  General
+  ++  A is for Ankhet, S is for Sladi | p | Arcana 13 Insight 18
+      Speaking the same language      | x | Arcana 10
+  ++  Keep it secret keep it safe     | p | Arcana 15
+  Lorehold
+   +  Hindsight                       | a | History 25
+  Prismari
+   +  Flying colors                   | p | Arcana 15
+  Witherbloom
+  ++  Putting Down Roots              | p | Arcana 18
+      Stem                            | p | Alchemy 15
+  ++s Thorn in ones side              | a | Nature 23
+  ++s Weeding out the Weak            | a | Alchemy 26
+  Quandrix
+      Connecting the dots             | x | Arcana 9
+  ++  Birds of the feather            | x | Insight 5
+      Growing pains                   | p | Arcana 19
+
+-------------------------------------------------------------------------------
+
+Party (The Shady Bitches):
+  Lindsey: Human Artificer
+  Willow : Sunelf Wizard
+  Nuala  : Summer Eladrin Druid
+
+  31 What food does your character steal from the communal pantry?
+    L: Anything and everything with vanilla.
+    W: Spicy chips (likes spicy things)
+    N: Spicy noodles (want to learn spicy tolerance) (Crying mexican, instant death)
+
+Strixhaven peeps:
+  (+2) Aurora Luna Wynterstarr | Female Dhampir | First Year Witherbloom
+    Strixhaven Stadium Groundskeeper
+    Naive and autistic
+    Hurdy Gurdy Performer
+
+  (+2) Rosimyffenbip "Rosie" Wyzfeddlims | Female Gnome | First Year Lorehold
+    Was part of the giant frog incident
+    Clubmate at the Alchemists Association
+  
+  (+2) Bhedum "Rampurt" Sooviij | Male Loxodon | First Year Lorehold
+    Dragonsguard Historical Society, Dragonchess Club
+    Helped when his plant was producing ominous black smoke
+    Joined us on our first expedition to find the Wandering Shop
+  
+  (+1) Drazhomir Yarnask | Male Minotaur | Second Year Quandrix
+    Very soft-spoken
+    Dead Languages Society; loves poetry
+    Biblioplex bookclerk
+  
+  (+1) Tilana Kapule | Female Human | First Year Quandrix
+    Dragonchess; not very good at the game itself, but great at reading opponents
+
+  (+1) Urzmaktok Grojsh | Male Orc | Second Year Witherbloom
+    Speciment Preparer at the Campus Magic Labs
+    Really likes the well grilled spiced beetle carapace
+  
+  (  ) Larine Arneza | Female Human | First Year Quandrix
+    Students of the Beyond
+  
+  (-1) Cadoras Damellawar | Male Highelf | First Year Quandrix
+    Very passionate LARPer
+    Distinguised Society of Fine Artists; statuary of complex fractal patterns
+  
+  (-1) Quentillius Antiphiun Melentor III | Male Human | First Year Prismari
+    "do something correctly, or don't do it at all"
+    Smug asshole
+  
+  
+Faculty:
+  Professor Sharpbeak
+
+Wandering Shop:
+
+-------------------------------------------------------------------------------
+
+After classes, we spend time in the Firejolt Cafe.
+On the day of Aurora's Hurdy Gurdy performance, we were asked to go to the Fireside Lounge..
+Rozie, Gnome Firstyear,
+
+Nuala      is racing the purple frog with the bowtie, Bob.
+Rozie      is racing the red    frog with suspenders.
+Quintilius is racing the blue   frog with a cape.
+Larene     is racing the orange frog with a tophat, Dapper frog.
+
+Lindsey is cheering on the frog with a tophat. "Go mr. dapper!"
+Willow  is heckling Quintilius.
+
+After the race, in which Bob and Dapper frog tied, the frogs started growing, and their eyes started glowing red.
+A female elf, Ellina Tenderwood, owner of the cafe, enters the room and helps out.
+After combat, Lindsey took Dapper Frog's tophat.
+The frogs came from the Archway Commons, they were already glowing.
+They have eaten a stange black oozing, sweet smelling, substance.
+Bob has joined the party.
+
+-------------------------------------------------------------------------------
+
+Works at the biblioplex
+  Book Clerk
+Independent Research Consortium
+  Arcana, Deception, Spell modifier
+Strixhaven Alchemists Association
+  Arcana, Medicine, Nature
+  Professors Asana's Lab
+  Rozie
