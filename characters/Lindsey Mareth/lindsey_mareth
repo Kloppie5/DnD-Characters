@@ -2,13 +2,16 @@ STR  CON(p)  DEX  CHA  WIS  INT(p)
   8    12     10   13   12   18
  -1    +1     +0   +1   +1   +4
 
+
 Artificer 1, Warlock(Fathomless) 1
 Human (variant)
 Eldritch Adept (Eldritch Sight)
     You can cast detect magic at will, without expending a spell slot or material components.
 Languages: Common, Dwarvish, Elvish, Gnomish, Goblin
 
-HP: 15/15
+HP: 13/15
+Inspiration: 1
+AC 13
 
 Proficiency Bonus +2
 
@@ -51,8 +54,11 @@ Spells:
     (a) Tasha's Caustic Brew
     (w) Thunderwave
 
+Spell slots: 3/3
+
 Inventory:
 - Dapper Frog's tophat
+- White Fiddle
 
 Bracelet with small metal trinkets; fish, sphere, shell, gear, leaf, star, skull
 
@@ -92,30 +98,51 @@ Year 1:
 -------------------------------------------------------------------------------
 
 Party (The Shady Bitches):
+    - Lenses of Quick Study
   Lindsey: Human Artificer
   Willow : Sunelf Wizard
+    - Ink arrow Wand
   Nuala  : Summer Eladrin Druid
+
+  9 What is your characters favorite lesson?
+    L: Stem; using the magic of non magic plants
+    W: Hindsight; just looking at old shit and how artifacts decay over time
+    N: Hindsight; just looking at old shit
 
   31 What food does your character steal from the communal pantry?
     L: Anything and everything with vanilla.
     W: Spicy chips (likes spicy things)
     N: Spicy noodles (want to learn spicy tolerance) (Crying mexican, instant death)
 
-Strixhaven peeps:
-  (+2) Aurora Luna Wynterstarr | Female Dhampir | First Year Witherbloom
-    Strixhaven Stadium Groundskeeper
-    Naive and autistic
-    Hurdy Gurdy Performer
+  34 Is your character a good student?
+    L: Well I have been passing courses, and I haven't been suspended too often...
+    W: I like reading a lot, I put in the work; but in class I'm more the talking or falling asleep person.
+    N: I'm not necessarily a good or a bad student. I come to classes, but more to talk to other students than to pay attention.
 
-  (+2) Rosimyffenbip "Rosie" Wyzfeddlims | Female Gnome | First Year Lorehold
+  61 What class would your character teach?
+    L: Alchemy Anonymous; brewing potions that will hopefully not blow you away.
+    W: STEM, or speaking the same language
+    N: bogged down
+
+Strixhaven peeps:
+  (+3) Rosimyffenbip "Rosie" Wyzfeddlims | Female Gnome | First Year Lorehold
+      [Reach destination at significant distance in half the time]
     Was part of the giant frog incident
     Clubmate at the Alchemists Association
+    Inn antics
   
   (+2) Bhedum "Rampurt" Sooviij | Male Loxodon | First Year Lorehold
+      [Avoid campus security; others help lie low]
     Dragonsguard Historical Society, Dragonchess Club
     Helped when his plant was producing ominous black smoke
     Joined us on our first expedition to find the Wandering Shop
   
+  (+2) Aurora Luna Wynterstarr | Female Dhampir | First Year Witherbloom
+      [Fellow musicians will cover the cost once a week in an establishment where music is played]
+    Strixhaven Stadium Groundskeeper
+    Naive and autistic
+    Hurdy Gurdy Performer
+
   (+1) Drazhomir Yarnask | Male Minotaur | Second Year Quandrix
     Very soft-spoken
     Dead Languages Society; loves poetry
@@ -128,17 +155,19 @@ Strixhaven peeps:
     Speciment Preparer at the Campus Magic Labs
     Really likes the well grilled spiced beetle carapace
   
+  (+1) Melwythorn | Male Tree person | First Year Witherbloom
+    Feywild
+
   (  ) Larine Arneza | Female Human | First Year Quandrix
     Students of the Beyond
   
-  (-1) Cadoras Damellawar | Male Highelf | First Year Quandrix
+  (  ) Cadoras Damellawar | Male Highelf | First Year Quandrix
     Very passionate LARPer
     Distinguised Society of Fine Artists; statuary of complex fractal patterns
   
-  (-1) Quentillius Antiphiun Melentor III | Male Human | First Year Prismari
+  (  ) Quentillius Antiphiun Melentor III | Male Human | First Year Prismari
     "do something correctly, or don't do it at all"
     Smug asshole
-  
   
 Faculty:
   Professor Sharpbeak
@@ -148,8 +177,7 @@ Wandering Shop:
 -------------------------------------------------------------------------------
 
 After classes, we spend time in the Firejolt Cafe.
-On the day of Aurora's Hurdy Gurdy performance, we were asked to go to the Fireside Lounge..
-Rozie, Gnome Firstyear,
+On the day of Aurora's Hurdy Gurdy performance, we were asked to go to the Fireside Lounge.
 
 Nuala      is racing the purple frog with the bowtie, Bob.
 Rozie      is racing the red    frog with suspenders.
@@ -163,8 +191,74 @@ After the race, in which Bob and Dapper frog tied, the frogs started growing, an
 A female elf, Ellina Tenderwood, owner of the cafe, enters the room and helps out.
 After combat, Lindsey took Dapper Frog's tophat.
 The frogs came from the Archway Commons, they were already glowing.
-They have eaten a stange black oozing, sweet smelling, substance.
+They have eaten a strange black oozing, sweet smelling, substance.
 Bob has joined the party.
+
+-------------------------------------------------------------------------------
+
+Something about a heist
+
+-------------------------------------------------------------------------------
+
+Sleek bright purple card with 8 white circles; Mimsy Membership card; 1/8
+Ink arrow wand; when casting a spell, gain an inky arrow that deals xd6 piercing on a bonus action, x the level of the spell
+
+Visiting the Treetop Tavern; owned by the Oakenlogs
+- No touchy the golden acorn statue
+[X] Sylla; get drink ingredients in the forest
+    [1] orange/red spoicy flower (25), kumquat (23)
+    [7] withering flower(20)
+    [8] burning rosemarie
+[X] Myrabel; Gavin quit;
+   => entertain the audience
+[X] Kark the marbled half-orc; want reach next step with pretty lady. Want tea?
+   => matchmaking Greeba; halforc-halfwoodelf guard
+[X] Nomis "the gnome" Copperbottom; stablemaster
+   => get egg out of nest
+[X] The lady over there; halfling druid; Elda;
+   => helped teach her wildshaping
+[X] Yarius; halfelf; notice me senpai
+   => Tamm (gnome) works here, wants to buy their clockwerk Magpie (150 gp) (or steal it)
+[X] Greenhouse at dusk; corporate espionage quest
+   Dunstann Forgehand, get me recipe (Gwynnyn's Blend) for the mead; 50 and 50 for the ingredients
+   => thrown out after we told Gwynnyn
+
+- Rosie, big book with a note;
+    All will become clear when you shift your gaze by the third triangular number.
+    26 14  7 18 24 15  9  / 21 12 12 15  9 11
+    25 26  7 12 12  /  3 15 20 13
+    25 26  7 24 18 15 13 14 26
+    ->
+    THALRIC OFFICE
+    STAFF WING
+    STARLIGHT
+
+- Sylla's Special; a random mix of stuff
+
+Very inspirational orgy
+
+=== opening office
+
+compass pointing to a book;
+
+Echoes of old lore
+In silent halls words take flights
+hearts truth shell and seal
+
+its damn dusty here
+can we please get on with this
+im still hungover
+
+the compass leads to the biblioplex
+to a painting we can walk into
+
+-------------------------------------------------------------------------------
+
+Long hallway of traps
+Book: For the stone hearted -> potion recipe
+-> ettercap claws  (20 gp)
+
+bring the clearly anti petrification potion to the statue
 
 -------------------------------------------------------------------------------
 
