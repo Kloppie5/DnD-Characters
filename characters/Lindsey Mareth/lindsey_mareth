@@ -1,19 +1,37 @@
 STR  CON(p)  DEX  CHA  WIS  INT(p)
-  8    12     10   13   12   18
- -1    +1     +0   +1   +1   +4
+  8    12     10   14   12   18
+ -1    +1     +0   +2   +1   +4
 
-
-Artificer 1, Warlock(Fathomless) 1
+Artificer 2, Warlock(Fathomless) 1
 Human (variant)
 Eldritch Adept (Eldritch Sight)
     You can cast detect magic at will, without expending a spell slot or material components.
 Languages: Common, Dwarvish, Elvish, Gnomish, Goblin
+Tools: Alchemist's Supplies
+Artificer Infusions:
+  Enhanced Arcane Focus (+1)
+  Enhanced Defense (+1)
+  Homunculus Servant
+  Mind Sharpener
 
-HP: 13/15
-Inspiration: 1
-AC 13
+HP: 21/21
+AC 15
+
+460 gp
 
 Proficiency Bonus +2
+Spell Casting: +7
+
+Tome of Transfixing Verses (3000) (Tome of Fixing Low Charisma Party)
+- Proficiency with Persuasion
+- 8/10 charges, regain 1d8+1 at dawn; one extra charge to increase spell level
+    calm emotions (2 charges)
+    charm person (1 charge)
+    enthrall (2 charges)
+
+Blanket Robe (50ea)
+
+---------------------------------------------
 
 Strength              -1
     Athletics          -1
@@ -33,11 +51,11 @@ Wisdom                +1
     Medicine           +1
     Perception         +1
     Survival(p)        +3
-Charisma              +1
-    Deception          +1
-    Intimidation       +1
-    Performance        +1
-    Persuasion         +1
+Charisma              +2
+    Deception          +2
+    Intimidation       +2
+    Performance        +2
+    Persuasion(p)      +4
 
 Spells:
   Cantrips
@@ -45,20 +63,29 @@ Spells:
     (a) Fire Bolt
     (a) Guidance
     (w) Mind Sliver
-  Level 1 (2)
+    (w) Ray of Frost
+  Level 1 (4/4)
+    (a) Catapult
+    (i) Charm Person
     (w) Create or Destroy Water
     (a) Cure Wounds
-    (a) Detect Magic
+    (s) Entangle
     (a) Feather Fall
     (a) Sanctuary
     (a) Tasha's Caustic Brew
     (w) Thunderwave
-
-Spell slots: 3/3
+  Level 2 (2/2)
+    (i) Calm Emotions
+    (i) Enthrall
+    (a) Invisibility
+    (s) Ray of Enfeeblement
+    (w) Suggestion
+    (a) Vortex Warp
 
 Inventory:
 - Dapper Frog's tophat
 - White Fiddle
+- Breastplate
 
 Bracelet with small metal trinkets; fish, sphere, shell, gear, leaf, star, skull
 
@@ -75,34 +102,34 @@ Gift of the Sea
 
 -------------------------------------------------------------------------------
 
-Year 1:
-
-  General
-  ++  A is for Ankhet, S is for Sladi | p | Arcana 13 Insight 18
-      Speaking the same language      | x | Arcana 10
-  ++  Keep it secret keep it safe     | p | Arcana 15
-  Lorehold
-   +  Hindsight                       | a | History 25
-  Prismari
-   +  Flying colors                   | p | Arcana 15
-  Witherbloom
-  ++  Putting Down Roots              | p | Arcana 18
-      Stem                            | p | Alchemy 15
-  ++s Thorn in ones side              | a | Nature 23
-  ++s Weeding out the Weak            | a | Alchemy 26
-  Quandrix
-      Connecting the dots             | x | Arcana 9
-  ++  Birds of the feather            | x | Insight 5
-      Growing pains                   | p | Arcana 19
-
--------------------------------------------------------------------------------
-
 Party (The Shady Bitches):
     - Lenses of Quick Study
   Lindsey: Human Artificer
   Willow : Sunelf Wizard
     - Ink arrow Wand
+    - Cloak of Warding
   Nuala  : Summer Eladrin Druid
+    - Sigil Tattoo
+
+  What is some Gossip about you on the campus?
+    L: Wanted somewhere for bank robbery
+    W: Attends Strixhaven because kicked out for trying to poison parents (Actually salt)
+    N: Neighborhood cats stopped dying when whe left for Strixhaven (Wants skeleton cat)
+
+  What college does your character dislike the most?
+    L: Silverquill -- Not a magic of substance, sweat talkers
+    W: Silverquill -- Students are all talk, but no actions
+    N: Quandrix -- Too exact, no mystery left
+  
+  How does your character try and socialise?
+    L: Buying them a drink first
+    W: With a joke, or because they are both in detention after willow pulled a prank.
+    N: Goes up to them and talks about the first thing on their mind. If it doesn't work it's not worth their time.
+
+  What is your character's signature student dish?
+    L: French Toast, although no one knows what "French" is
+    W: Very spicy leftover soup, with spice mix: Called "VeggieMush"
+    N: Bug burger, not necessarily all dead
 
   9 What is your characters favorite lesson?
     L: Stem; using the magic of non magic plants
@@ -119,29 +146,85 @@ Party (The Shady Bitches):
     W: I like reading a lot, I put in the work; but in class I'm more the talking or falling asleep person.
     N: I'm not necessarily a good or a bad student. I come to classes, but more to talk to other students than to pay attention.
 
+  58 Would your character help another cheat? If so, how have you helped someone already?
+    L: Yes, you can write cheat sheets small enough that and use vision enhancing drugs.
+    W: Yes, passing notes, and using time magic to fix the screw ups.
+    N: No
+
   61 What class would your character teach?
     L: Alchemy Anonymous; brewing potions that will hopefully not blow you away.
     W: STEM, or speaking the same language
-    N: bogged down
+    N: Bogged down
+
+  68 What illicit goods does your character go to a shady broker for?
+    L: All of them, where else would i get them?
+    W: Selling fake spellbooks
+    N: Necromancy stuff, because apparently people frown upon everything that has to do with the dead
+
+  86 Did your character have an imaginary friend while growing up?
+    L: Heather, "She wasnt imaginary, she just happened to never be around when others were around."
+    W: Naaaaah
+    N: Not necessarily a friend, I just kind of kept talking to my brother "Random" after he died.
+
+  96 Between perfection and expression, what does your character align with the most?
+    L: Perfection; whats the point in making something if you can't recreate it exactly?
+    W: A little more perfection than expression
+    N: Expressive; havent found a situation yet where perfection was needed
+
+  100 Should magic be used for growth or decay?
+    L: Depends on what the goal of the user was.
+    W: Yes
+    N: They go hand in hand, magic should only make something greater than it already was.
+
+-------------------------------------------------------------------------------
+
+Year 1:
+
+  per day
+    1d4 Arcana
+    2d4 Nature and Animal Handling
+
+  General
+  ++  A is for Ankhet, S is for Sladi | pa | Arcana 13 Insight 18 | Nature 19 Animal Handling 19
+      Speaking the same language      | xp | Arcana 10            | Insight 13 Arcana 9
+  ++  Keep it secret keep it safe     | pa | Arcana 15            | Deception 20 Intimidation 20
+  Lorehold
+   +  Hindsight                       | aa | History 25           | Investigation 21 Wisdom 16
+  Prismari
+   +  Flying colors                   | pp | Arcana 15            | Arcana 17 Performance 3
+  Witherbloom
+  ++  Putting Down Roots              | pa | Arcana 18            | Arcana 12 Medicine 18
+      Stem                            | pp | Alchemy 15           | Alchemy 12 Medicine 12
+  ++s Thorn in ones side              | ap | Nature 23            | Survival 8 Nature 18
+        Ensnaring strike, hail of thorn, or entangle
+  ++s Weeding out the Weak            | aa | Alchemy 26           | Spell Attack 15 Alchemy 20
+        Ray of Enfeeblement
+  Quandrix
+      Connecting the dots             | xp | Arcana 9             | Int 6 Nature 13
+  ++  Birds of the feather            | xp | Insight 5            | Insight 8 Nature 13
+      Growing pains                   | px | Arcana 19            | Arcana 6 Concentration 8
+
+-------------------------------------------------------------------------------
 
 Strixhaven peeps:
-  (+3) Rosimyffenbip "Rosie" Wyzfeddlims | Female Gnome | First Year Lorehold
+
+  (+4) Rosimyffenbip "Rosie" Wyzfeddlims | Female Gnome | First Year Lorehold
       [Reach destination at significant distance in half the time]
     Was part of the giant frog incident
     Clubmate at the Alchemists Association
     Inn antics
+  
+  (+3) Aurora Luna Wynterstarr | Female Dhampir | First Year Witherbloom
+      [Fellow musicians will cover the cost once a week in an establishment where music is played]
+    Strixhaven Stadium Groundskeeper
+    Naive and autistic
+    Hurdy Gurdy Performer
   
   (+2) Bhedum "Rampurt" Sooviij | Male Loxodon | First Year Lorehold
       [Avoid campus security; others help lie low]
     Dragonsguard Historical Society, Dragonchess Club
     Helped when his plant was producing ominous black smoke
     Joined us on our first expedition to find the Wandering Shop
-  
-  (+2) Aurora Luna Wynterstarr | Female Dhampir | First Year Witherbloom
-      [Fellow musicians will cover the cost once a week in an establishment where music is played]
-    Strixhaven Stadium Groundskeeper
-    Naive and autistic
-    Hurdy Gurdy Performer
 
   (+1) Drazhomir Yarnask | Male Minotaur | Second Year Quandrix
     Very soft-spoken
@@ -260,6 +343,77 @@ Book: For the stone hearted -> potion recipe
 
 bring the clearly anti petrification potion to the statue
 
+We took the elemental deer thing to our place and now it lives in a pile of blankets
+We went to the Bows End Tavern for getting ettercaps, but there was an attack in the kitchen.
+The Bows End Tavern now sells wonky eggs due to all the bent pans.
+Tulk 'The bulk' Tusk Tooth the Orc owner
+
+-------------------------------------------------------------------------------
+
+Went to the Wizard Watering Hole
+Made one vial of dubious, very viscous purple liquid.
+"Made to represent Thalric Eldermage"
+
+Pop quiz!
+
+The challenges appeal to all of the colleges. In what order?
+- smort (Quandrix)
+- writing (Silverquill)
+- fighting (Prismari)
+- brewing (Witherbloom)
+- quiz (Lorehold)
+
+The founders were not human, what were they?
+- Dwagens
+
+How many deans are there?
+- 10
+
+Who is the current Oracle of Strixhaven?
+- Yatzi
+
+What is the main source of light in the central hall of the biblioplex?
+- Snarl, a tangle in the weave
+
+The Seeker's Compass; an uncommon wonderous item
+Big needle doesnt get misleaded
+Small needle; Command word locate object once per day; Magic compass in my hand, where did the stuff I misplace land?
+
+Archway commons; central pond, harvester, secret staircase
+Demiplane -> book Eldermage's Codex, chronicles of arcane mastery
+
+=== Stygian Gambit ===
+
+Back to our room, gold key on the desk
+An old friend had her life saving stolen, talk to Verity Brine Widow Tavern
+
+While camping on the way over, Naula failed to protect our rations.
+Verity Kye
+Steal the statuette and 5000gp
+100gp pay each
+
+Camera mirrors, security office
+Staff is tiefling
+Marked doors keycard
+Arrive by wooden boats
+
+5000 taken
+5001 personal
+
+====
+
+Using Silent Image on the display to hide, Nuala as a spider went through the keyhole and stole the statuette.
+The Mephistophelisian Gnome owner discovered the statuette was stolen and ordered everyone to be searched.
+Learned a bunch of gnomish curse words.
+
+During the search, we casually made 1362 gold with a dice game.
+
+We spend money at Mimsy;
+
+Nuala got a Sigil Tattoo
+Willow got the Cloak of Warding
+Lindsey got Tome of Transfixing Verse and Blanket Robe
+
 -------------------------------------------------------------------------------
 
 Works at the biblioplex
@@ -270,3 +424,10 @@ Strixhaven Alchemists Association
   Arcana, Medicine, Nature
   Professors Asana's Lab
   Rozie
+
+-------------------------------------------------------------------------------
+
+Fungal Grotto
+Everything can talk and you eat the barman
+[ ] Artistic eye and persuasive nature, rearrange the patio, speak with FOOF
+[ ] Childcare, nursery
